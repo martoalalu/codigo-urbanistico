@@ -1,4 +1,4 @@
-# Guía para la publicación de datos en formatos abiertos
+# Guía para la publicación de datos en formatos abiertos del Gobierno de la Ciudad Autónoma de Buenos Aires
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -43,21 +43,25 @@
 
 ## Introducción
 
-Esta guía busca ayudar a los organismos a instrumentar la Política de Datos Abiertos impulsada desde el Gobierno de la Nación Argentina, a través del Decreto N° 117/2016 del 12 de enero de 2016.
+Esta guía busca ayudar a los organismos de la Administración Centralizada y Descentralizada y a las Entidades Autárquicas del Gobierno de la Ciudad Autónoma de Buenos Aires a instrumentar los lineamientos en materia de apertura de datos públicos establecidos en los Decretos N°[156/2012](https://boletinoficial.buenosaires.gob.ar/normativaba/norma/190097) y N° [478/2013](https://boletinoficial.buenosaires.gob.ar/normativaba/norma/234859) y a mejorar la calidad y la gestión de los datos generados por estas entidades. Está basada en la [Guía de buenas prácticas para la publicación de datos en formatos abiertos](https://paquete-apertura-datos.readthedocs.io/es/stable/guia_abiertos.html) elaborada por el equipo de la Dirección Nacional de Datos e Información Pública de la Secretaría de Gobierno de Modernización de la Jefatura de Gabinete de Ministros de la Nación. 
 
 ## Objetivo de la guía
 
-Esta es **una guía de buenas prácticas para la publicación de datos en formatos abiertos.**
+Esta es **una guía de buenas prácticas para la publicación de datos en formatos abiertos de la Ciudad Autónoma de Buenos Aires.**
 
 Estas recomendaciones se basan en:
 
+* La Guía de buenas prácticas para la publicación de datos en formatos abiertos de Nación.
+
 * Estándares usados a nivel nacional e internacional.
 
-* La experiencia de trabajo del equipo de la Dirección Nacional de Datos e Información Pública de la Secretaría de Gobierno de Modernización de la Jefatura de Gabinete de Ministros de la Nación.
+* Estándares definidos por el Gobierno de la Ciudad Autónoma de Buenos Aires.
+
+* La experiencia de trabajo del equipo de la Dirección General de Calidad Institucional y Gobierno Abierto, de la Subsecretaría de Gestión Estratégica y Calidad Institucional, Secretaría General y Relaciones Institucionales del Gobierno de la Ciudad Autónoma de Buenos Aires.
 
 Esta es **una guía colaborativa y en progreso**. Valoramos, y alentamos, a organizaciones y ciudadanos a plantear ideas, sugerencias, y comentarios que nos ayuden a crear un mejor documento.
 
-El documento se estructura así:
+El documento sigue la estructura de la Guía para la apertura del Gobierno Nacional y se organiza de la siguiente manera:
 
 **Formatos abiertos de archivos:** cuáles son los formatos más usuales en los que se publican datos y cuáles son los más recomendables.
 
@@ -79,54 +83,74 @@ El documento se estructura así:
 
 Estos son los primeros aspectos importantes para la estandarización de datos.
 
-Para una discusión sobre los estándares recomendados en el manejo de datos básicos y fundamentales, transversales a distintas áreas temáticas, se puede consultar la **Guía para la identificación y uso de entidades interoperables**.
+Para una discusión sobre los estándares recomendados en el manejo de datos básicos y fundamentales, transversales a distintas áreas temáticas, se puede consultar la **[Guía para la identificación y uso de entidades interoperables de la Ciudad Autónoma de Buenos Aires] (guia_interoperables.md)**.
 
 ## Formatos abiertos de archivos
 
-Hay una gran variedad de tecnologías disponibles para producir y almacenar datos. Como ser: planillas de cálculo, bases de datos, software estadístico más específico y más. Esto genera una enorme diversidad de formatos, a veces caótica.
-
-Algunos de estos formatos, no siempre se adecuan a los niveles de apertura deseados. Te ofrecemos algunas pautas y recomendaciones que facilitan la adaptación y/o transformación de estos formatos hacia otros más abiertos y fácilmente reutilizables.
-
-En este cuadro consideramos algunos de los formatos más usados y evaluamos su nivel de apertura:
+Hay una gran variedad de tecnologías disponibles para producir y almacenar datos (planillas de cálculo, bases de datos, software estadístico más específico, entre otros), algunos de ellos con un nivel bajo de apertura y de difícil reúso. En este cuadro consideramos algunos de los formatos más usados y evaluamos su nivel de apertura:
 
 <table id="left-align-col-2">
 <tbody>
   <tr>
     <th>Formato</th>
-    <th>Descripción breve</th>
+    <th>Descripción</th>
     <th>Tipo de datos</th>
     <th>Nivel de apertura</th>
   </tr>
   <tr>
+    <td>PDF</td>
+    <td>Los PDF son archivos de texto que no se encuentran en formato estructurado.</td>
+    <td>Texto</td>
+    <td>Bajo</td>
+  </tr>  
+  <tr>
     <td>XLS</td>
     <td>Los XLS son archivos de planilla de cálculo. Es un formato propietario de MS Office.</td>
     <td>Tabulares</td>
-    <td>Baja</td>
+    <td>Bajo</td>
   </tr>
   <tr>
     <td>XLSX</td>
-    <td>Los XLSX son archivos con la estructura de un XML. Es un formato abierto basado en Office Open XML (ISO/IEC 29500:2008). Popularizado por ser el formato por defecto del procesador de planillas de cálculo desde MS Office 2007.</td>
+    <td>Los XLSX son archivos con la estructura de un XML. Es un formato abierto basado en Office Open XML (ISO/IEC 29500:2008), lo que permite que pueda ser utilizado por diversos software de planillas de cálculo. Popularizado por ser el formato por defecto del procesador de planillas de cálculo desde MS Office 2007.</td>
     <td>Tabulares</td>
-    <td>Media</td>
+    <td>Medio</td>
   </tr>
   <tr>
     <td>ODS</td>
     <td>Los ODS son archivos con la estructura de un XML. Es un formato abierto basado en OASIS OpenDocument Format (ISO/IEC 26300) . Es el formato por defecto del procesador de planillas de cálculo Open Office.</td>
     <td>Tabulares</td>
-    <td>Media</td>
+    <td>Medio</td>
   </tr>
   <tr>
     <td>CSV</td>
     <td>Los archivos CSV son archivos de texto plano donde las columnas se separan por comas y las filas por saltos de línea.
-Es un formato abierto.</td>
+Es un formato abierto para datos tabulares.</td>
     <td>Tabulares</td>
-    <td>Alta</td>
+    <td>Alto</td>
   </tr>
   <tr>
     <td>JSON</td>
-    <td>Es un formato para el intercambio de datos. En mayor medida que los formatos anteriores, JSON es especialmente útil para datos entre máquinas. Es un formato abierto basado en la especificación RFC 7159. </td>
+    <td>Es un formato para el intercambio de datos. En mayor medida que los formatos anteriores, JSON es especialmente útil para datos entre máquinas. Es un formato abierto basado en la especificación RFC 7159.</td>
     <td style="font-size: 12px" >Estructurados</td>
-    <td>Alta</td>
+    <td>Alto</td>
+  </tr>
+  <tr>
+    <td>KML</td>
+    <td>Es un formato abierto para datos geográficos basado en el estándar XML.</td>
+    <td style="font-size: 12px" >Geográficos</td>
+    <td>Alto</td>
+  </tr>
+  <tr>
+    <td>GeoJSON</td>
+    <td>Es un formato estándar abierto diseñado para representar elementos geográficos sencillos, junto con sus atributos no espaciales.</td>
+    <td style="font-size: 12px" >Geográficos</td>
+    <td>Alto</td>
+  </tr>
+  <tr>
+    <td>GeoPackage</td>
+    <td>Es un formato de datos geoespaciales implementado como un contenedor de base de datos SQLite.</td>
+    <td style="font-size: 12px" >Geográficos</td>
+    <td>Alto</td>
   </tr>
 </tbody>
 </table>
@@ -156,7 +180,7 @@ El CSV es un formato estándar de archivo de texto plano donde:
 
 * Se utilizan las comillas dobles `"` como caracter de entrecomillado. Los valores en tablas CSV que incluyen dentro de sí caracteres especiales como `,` o `"`, deben estar encerrados entre `"` para su correcta interpretación.
 
-Algunas versiones alternativas de esta forma de publicar datos usan otros separadores como punto y coma (`;`) o pipe (`|`), pero la recomendación para toda la Administración Pública Nacional se basa en la versión de CSV más estándar, indicada por la especificación [RFC4180](http://tools.ietf.org/html/rfc4180) y las pautas de la [W3C](https://www.w3.org/TR/tabular-data-model/).
+Algunas versiones alternativas de esta forma de publicar datos usan otros separadores como punto y coma (`;`) o pipe (`|`), pero la recomendación para todos los organismos del Gobierno de la Ciudad Autónoma de Buenos Aires, siguiendo los lineamientos para la Administración Pública Nacional, se basa en la versión de CSV más estándar, indicada por la especificación [RFC4180](http://tools.ietf.org/html/rfc4180) y las pautas de la [W3C](https://www.w3.org/TR/tabular-data-model/).
 
 Otros elementos a tener en cuenta:
 
@@ -207,13 +231,13 @@ El formato JSON ha sido definido por la especificación [RFC 7159](https://tools
 
 ## Fragmentación de archivos
 
-Para garantizar la accesibilidad a los datos, **es necesario fragmentar los archivos  excesivamente grandes**, que superen el millón de filas.
+Para garantizar la accesibilidad a los datos, **es necesario fragmentar los archivos excesivamente grandes**, que superen el millón de filas.
 
 Para esto, recomendamos usar conceptos simples, fragmentando:
 
 (a) **por períodos** en caso de tratarse de información temporal (Ej. Años, semestres, trimestres, meses, semanas, días),
 
-(b) **por zonas** en caso de tratarse de información geográfica (Ej. provincias, municipios, barrios, secciones, o manzanas) o
+(b) **por zonas** en caso de tratarse de información geográfica (Ej. comunas, barrios, secciones, manzanas o parcelas) o
 
 (c) **por dimensiones temáticas** propias del dominio particular de la información.
 
@@ -233,27 +257,21 @@ Recomendamos estas convenciones para nombrar archivos:
 
 Ejemplos:
 
-* *acceso-informacion-publica.csv*: Versión completa del recurso.
+* *procesos-de-compra-pliego.csv*: Versión completa del recurso.
 
-* *acceso-informacion-publica-2013.csv*: Versión del recurso fragmentada por año.
+* *procesos-de-compra-pliego-2018.csv*: Versión del recurso fragmentada por año.
 
-* *acceso-informacion-publica-201302.csv*: Versión del recurso fragmentada por mes.
-
-* *acceso-informacion-publica-caba.csv*: Versión del recurso fragmentada por división político-territorial (provincia o caba).
-
-* *acceso-informacion-publica-caba-2013.csv*: Versión del recurso fragmentada por división político-territorial (provincia o caba) y año.
-
-* *acceso-informacion-publica-jujuy-20130208.csv*:  Versión del recurso fragmentada por división político-territorial (provincia o caba) y fecha.
+* *procesos-de-compra-pliego-2010-al-2013.csv*: Versión del recurso fragmentada por período.
 
 Para la fragmentación temporal, recomendamos el estándar de los ejemplos, ya que es compacto y ordena los recursos por tiempo: YYYYMMDD. Por favor, recordá mantener siempre dos dígitos para el mes y el día, incluso si el número es menor a 10.
 
-Para la fragmentación por zonas, consultá la **Guía para la identificación y  uso de entidades interoperables**, y mirá cómo nombrarlas adecuadamente.
+Para la fragmentación por zonas, consultá la **[Guía para la identificación y uso de entidades interoperables de la Ciudad Autónoma de Buenos Aires](guia_interoperables.md)**, y mirá cómo nombrarlas adecuadamente.
 
 En el caso de usar dimensiones temáticas propias del dominio particular de la información, podés ver esa guía o usar el mejor estándar identificado para esa temática particular.
 
 ## Codificación
 
-Todos los recursos de datos, incluyendo los geográficos, deben publicarse usando la codificación UTF-8 siguiendo las  [recomendaciones de la W3C](https://www.w3.org/TR/tabular-data-model/#h-encoding).
+De acuerdo con los lineamientos establecidos para la Administración Pública Nacional, todos los recursos de datos, incluyendo los geográficos, deben publicarse usando la codificación UTF-8 siguiendo las [recomendaciones de la W3C](https://www.w3.org/TR/tabular-data-model/#h-encoding).
 
 Una de las principales razones es que UTF-8 soporta una gran variedad de lenguajes, [según la W3C](https://www.w3.org/International/questions/qa-choosing-encodings) es un *"estándar en el que se definen todos los caracteres necesarios para la escritura de la mayoría de los idiomas hablados en la actualidad. Su objetivo es ser, y, en gran medida, ya lo ha logrado, un superconjunto de todos los sets de caracteres que se hayan codificado"*.
 
@@ -267,9 +285,7 @@ En esta sección veremos:
 
 ### Recomendaciones generales
 
-Estas son recomendaciones generales para el trabajo con datos tabulares. Sugerimos adoptarlas sea cual sea la tecnología usada.
-
-Muchas de las las recomendaciones aquí presentadas se encuadran en los principios de [Tidy Data](https://www.jstatsoft.org/article/view/v059i10/v59i10.pdf) delineados por [Hadley Wickham](http://hadley.nz/). Éstos establecen, por ejemplo, que en una tabla de datos *"cada variable es una columna, cada observacion es una fila, y cada tipo de unidad observacional es una tabla"*. Sugerimos complementar la lectura de esta guía con la del trabajo que mencionamos.
+Muchas de las recomendaciones, tomadas de la Guía de Nación, se encuadran en los principios de [Tidy Data](https://www.jstatsoft.org/article/view/v059i10/v59i10.pdf) delineados por [Hadley Wickham](http://hadley.nz/). Éstos establecen, por ejemplo, que en una tabla de datos *"cada variable es una columna, cada observacion es una fila, y cada tipo de unidad observacional es una tabla"*. Sugerimos complementar la lectura de esta guía con la del trabajo que mencionamos.
 
 
 #### Nomenclatura de los campos (nombres de las columnas)
@@ -300,19 +316,15 @@ Los nombres de los campos deben:
 
     * Los campos deben separar los atributos de los datos en la forma más desagregada que sea posible. 
 
-    * Se debe evitar definir campos que contengan más de un tipo de información (por ejemplo: e-mail y sitio web, número de teléfono, etc bajo "datos_de_contacto").
+    * Se debe evitar definir campos que contengan más de un tipo de información (por ejemplo: e-mail y sitio web, número de teléfono, etc. bajo "datos_de_contacto").
 
 * Si existe una entidad que engloba varias características separadas en campos diferentes, comenzar nombrando los campos con esa entidad y luego con los atributos más específicos (de lo más general a lo más específico). 
 
-    * Ej.: solicitante y solicitante_documento son entidades más generales que se repiten en varios campos, que corresponden a atributos más específicos.
+    * Ej.: en los pedidos de acceso a la información pública, “solicitante” es una entidad que puede repetirse en varios campos que corresponden a atributos más específicos.
 
-* solicitante_nombre
+* solicitante_id
 
-* solicitante_cargo
-
-* solicitante_documento_tipo
-
-* solicitante_documento_numero
+* solicitante_tipo
 
     * Resulta más fácil  identificar qué campos están relacionados entre sí porque configuran atributos de una misma entidad, en lugar de parecer campos conceptualmente independientes.  Además, el ordenamiento alfabético de los campos los dejaría automáticamente agrupados por su pertenencia a una entidad más importante.
 
@@ -330,20 +342,16 @@ Los campos que sean identificadores o códigos, deberán incluir el sufijo "_id"
 <table>
 <tbody>
   <tr>
-    <td>sucursal_id</td>
-    <td>sucursal_desc</td>
+    <td>contracts_item_id</td>
+    <td>contracts_items_desc</td>
   </tr>
   <tr>
-    <td>1</td>
-    <td>Nueva Pompeya</td>
+    <td>20.01.001.0009.2-10</td>
+    <td>TELEVISOR INTELIGENTE (SMART)</td>
   </tr>
   <tr>
-    <td>2</td>
-    <td>Barracas</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>La Quiaca</td>
+    <td>03.02.001.0061.3-2</td>
+    <td>SERVICIO DE ARTES GRAFICAS - GRABADO SOBRE BOLIGRAFO</td>
   </tr>
 </tbody>
 </table>
@@ -351,9 +359,9 @@ Los campos que sean identificadores o códigos, deberán incluir el sufijo "_id"
 
 #### Nivel de granularidad de los datos
 
-Por favor, no incluir totales, subtotales ni agrupamientos de datos. Un dataset debe ser consistente en el nivel de granularidad de los datos que contiene. Está bien tener un dataset con la cantidad de convenios firmados por provincia y está bien tener un dataset con la cantidad de convenios firmados por municipio. No está bien tener un dataset que mezcle ambos. 
+Por favor, no incluir totales, subtotales ni agrupamientos de datos. Un dataset debe ser consistente en el nivel de granularidad de los datos que contiene. Está bien tener un dataset con la cantidad de proyectos por comuna y está bien tener un dataset con la cantidad de proyectos firmados por barrio. No está bien tener un dataset que mezcle ambos. 
 
-Dicho esto, el dato agregado "convenios firmados por provincia" siempre se puede calcular a partir de un proceso del dataset más desagregado, pero esto no es así a la inversa (es imposible recuperar los datos a nivel de municipio desde el dataset provincial).
+Dicho esto, el dato agregado "proyectos firmados por comuna" siempre se puede calcular a partir de un proceso del dataset más desagregado, pero esto no es así a la inversa (es imposible recuperar los datos a nivel de barrio desde el dataset comunal).
 
 <span class="no-recomendado">**No recomendado**</span> - datos con subtotales y/o totales incluidos (diferentes niveles de granularidad)
 
@@ -366,37 +374,37 @@ Dicho esto, el dato agregado "convenios firmados por provincia" siempre se puede
   </colgroup>
 <tbody>
   <tr>
-    <td style="font-size: 11px">provincia_nombre</td>
-    <td style="font-size: 11px">municipio_nombre</td>
-    <td style="font-size: 11px">convenios_firmados_anio</td>
-    <td style="font-size: 11px">convenios_firmados_numero</td>
+    <td style="font-size: 11px">comuna</td>
+    <td style="font-size: 11px">barrio</td>
+    <td style="font-size: 11px">proyectos_anio</td>
+    <td style="font-size: 11px">proyectos_numero</td>
   </tr>
   <tr>
     <td> </td>
-    <td>Provincia X</td>
-    <td>Municipio W</td>
+    <td>Barrio X</td>
+    <td>Barrio W</td>
     <td>2011</td>
   </tr>
   <tr>
-    <td>Provincia X</td>
-    <td>Municipio X</td>
+    <td>Comuna X</td>
+    <td>Barrio X</td>
     <td>2011</td>
     <td>15</td>
   </tr>
   <tr>
-    <td>Provincia X</td>
+    <td>Comuna X</td>
     <td>Subtotal</td>
     <td>2011</td>
     <td>25</td>
   </tr>
   <tr>
-    <td>Provincia Y</td>
-    <td>Municipio Z</td>
+    <td>Comuna Y</td>
+    <td>Barrio Z</td>
     <td>2011</td>
     <td>5</td>
   </tr>
   <tr>
-    <td>Provincia Y</td>
+    <td>Comuna Y</td>
     <td>Subtotal</td>
     <td>2011</td>
     <td>5</td>
@@ -422,26 +430,26 @@ Dicho esto, el dato agregado "convenios firmados por provincia" siempre se puede
   </colgroup>
 <tbody>
   <tr>
-    <td style="font-size: 11px">provincia_nombre</td>
-    <td style="font-size: 11px">municipio_nombre</td>
-    <td style="font-size: 11px">convenios_firmados_anio</td>
-    <td style="font-size: 11px">convenios_firmados_numero</td>
+    <td style="font-size: 11px">comuna</td>
+    <td style="font-size: 11px">barrio</td>
+    <td style="font-size: 11px">proyectos_anio</td>
+    <td style="font-size: 11px">proyectos_numero</td>
   </tr>
   <tr>
-    <td>Provincia X</td>
-    <td>Municipio W</td>
+    <td>Comuna X</td>
+    <td>Barrio W</td>
     <td>2011</td>
     <td>10</td>
   </tr>
   <tr>
-    <td>Provincia X</td>
-    <td>Municipio X</td>
+    <td>Comuna X</td>
+    <td>Barrio X</td>
     <td>2011</td>
     <td>15</td>
   </tr>
   <tr>
-    <td>Provincia Y</td>
-    <td>Municipio Z</td>
+    <td>Comuna Y</td>
+    <td>Barrio Z</td>
     <td>2011</td>
     <td>5</td>
   </tr>
@@ -464,13 +472,13 @@ Es preferible que la orientación de los datos sea "vertical" en lugar de “hor
   </colgroup>
 <tbody>
   <tr>
-    <td style="font-size: 11px">municipio_nombre</td>
+    <td style="font-size: 11px">comuna</td>
     <td style="font-size: 11px">solicitudes_anio</td>
     <td style="font-size:11px;">solicitudes_poda_y_arbolado_numero</td>
     <td style="font-size:11px;">solicitudes_recoleccion_residuos_numero</td>
   </tr>
   <tr>
-    <td>Municipalidad X</td>
+    <td>Comuna 6</td>
     <td>2015</td>
     <td>340</td>
     <td>198</td>
@@ -490,19 +498,19 @@ Es preferible que la orientación de los datos sea "vertical" en lugar de “hor
 
 <tbody>
   <tr>
-    <td style="font-size: 11px">municipio_nombre</td>
+    <td style="font-size: 11px">comuna</td>
     <td style="font-size: 11px">solicitudes_anio</td>
     <td style="font-size:11px;">solicitudes_categoria</td>
     <td style="font-size:11px;">solicitudes_numero</td>
   </tr>
   <tr>
-    <td>Municipalidad X</td>
+    <td>Comuna 6</td>
     <td>2015</td>
     <td>Poda y arbolado</td>
     <td>340</td>
   </tr>
   <tr>
-    <td>Municipalidad X</td>
+    <td>Comuna 6</td>
     <td>2015</td>
     <td>Recolección de residuos</td>
     <td>198</td>
@@ -520,12 +528,12 @@ Se recomienda definir los campos de forma atómica de modo de incluir un sólo a
 <table>
 <tbody>
   <tr>
-    <td>municipio_nombre</td>
+    <td>comuna</td>
     <td>solicitudes_anio</td>
     <td style="font-size:11px;">categoria_solicitudes_numero_y_tipo</td>
   </tr>
   <tr>
-    <td>Municipalidad X</td>
+    <td>Comuna 6</td>
     <td>2015</td>
     <td>Poda y arbolado - 340
 Recolección de residuos - 198</td>
@@ -538,19 +546,19 @@ Recolección de residuos - 198</td>
 <table>
 <tbody>
   <tr>
-    <td>municipio_nombre</td>
+    <td>comuna</td>
     <td>solicitudes_anio</td>
     <td>solicitudes_categoria</td>
     <td>solicitudes_numero</td>
   </tr>
   <tr>
-    <td>Municipalidad X</td>
+    <td>Comuna 6</td>
     <td>2015</td>
     <td>Poda y arbolado</td>
     <td>340</td>
   </tr>
   <tr>
-    <td>Municipalidad X</td>
+    <td>Comuna 6</td>
     <td>2015</td>
     <td>Recolección de residuos</td>
     <td>198</td>
@@ -740,13 +748,13 @@ Este error es muy común en la construcción de planillas de cálculo y suele ge
 <table>
 <tbody>
   <tr>
-    <td>municipio_nombre</td>
+    <td>comuna</td>
     <td>solicitudes_anio</td>
     <td>solicitudes_categoria</td>
     <td>solicitudes_numero</td>
   </tr>
   <tr>
-    <td>Municipalidad X</td>
+    <td>Comuna 6</td>
     <td>2015</td>
     <td>Poda y arbolado</td>
     <td> </td>
@@ -766,19 +774,19 @@ Este error es muy común en la construcción de planillas de cálculo y suele ge
 <table>
 <tbody>
   <tr>
-    <td>municipio_nombre</td>
+    <td>comuna</td>
     <td>solicitudes_anio</td>
     <td>solicitudes_categoria</td>
     <td>solicitudes_numero</td>
   </tr>
   <tr>
-    <td>Municipalidad X</td>
+    <td>Comuna 6</td>
     <td>2015</td>
     <td>Poda y arbolado</td>
     <td>340</td>
   </tr>
   <tr>
-    <td>Municipalidad X</td>
+    <td>Comuna 6</td>
     <td>2015</td>
     <td>Recolección de residuos</td>
     <td>198</td>
@@ -835,7 +843,7 @@ Insistimos: CSV es el formato más recomendado para la publicación de archivos 
 
 ## Estándares según el tipo de Datos
 
-El formato recomendado para los distintos tipos de datos está mayormente basado en las especificaciones de la [W3C](https://www.w3.org/TR/tabular-data-model/). En los otros casos, las recomendaciones surgen de la experiencia de trabajo del equipo de la Dirección Nacional de Datos e Información Pública y del esfuerzo realizado en la búsqueda de estándares más adecuados.
+El formato recomendado para los distintos tipos de datos está mayormente basado en las especificaciones de la [W3C](https://www.w3.org/TR/tabular-data-model/). En los otros casos, las recomendaciones surgen de la experiencia de trabajo del equipo de la Dirección Nacional de Datos e Información Pública, de estándares particulares definidos por organismos del Gobierno de la Ciudad Autónoma de Buenos Aires y del esfuerzo realizado en la búsqueda de estándares más adecuados.
 
 ### Texto
 
@@ -847,8 +855,9 @@ Las entidades que aparezcan entre los datos de un campo textual deben tener una 
 
 * **Las descripciones de entidades** deberían elegirse siempre de forma tal que cumplan con el estándar específico que las describe, en caso de que este exista.
 
-* **Cuando este estándar no existe** y hay dudas respecto del criterio a adoptar para elegir la descripción única de una entidad, debe **privilegiarse siempre aquella que sea lo más explícita**, descriptiva y declarativa posible.
+* **Cuando este estándar no exista** y hay dudas respecto del criterio a adoptar para elegir la descripción única de una entidad, debe **privilegiarse siempre aquella que sea lo más explícita**, descriptiva y declarativa posible.
 
+En el caso de la Ciudad Autónoma de Buenos Aires, de acuerdo a los lineamientos establecidos por la Unidad de Sistemas de Información Geográfica (USIG), la Ciudad Autónoma de Buenos Aires debe referenciarse como “CABA”.
 
 
 <span class="no-recomendado">**No recomendado**</span>
@@ -881,16 +890,16 @@ Las entidades que aparezcan entre los datos de un campo textual deben tener una 
     <td>localidad_nombre</td>
   </tr>
   <tr>
-    <td>Ciudad Autónoma de Buenos Aires</td>
+    <td>CABA</td>
   </tr>
   <tr>
-    <td>Ciudad Autónoma de Buenos Aires</td>
+    <td>CABA</td>
   </tr>
   <tr>
-    <td>Ciudad Autónoma de Buenos Aires</td>
+    <td>CABA</td>
   </tr>
   <tr>
-    <td>Ciudad Autónoma de Buenos Aires</td>
+    <td>CABA</td>
   </tr>
 </tbody>
 </table>
@@ -898,11 +907,17 @@ Las entidades que aparezcan entre los datos de un campo textual deben tener una 
 
 En el ejemplo anterior, los cuatro valores de texto refieren a la misma entidad. Debe elegirse una única forma de referirse a la misma y usarla en todos los casos.
 
-Siempre que sea posible, la elección deberá fundamentarse en el estándar establecido para ese tipo de entidad (para más información ver la **Guía para la identificación y uso de entidades interoperables**). En el caso de no existir un estándar, deberá adecuarse a las pautas generales contexto del dataset de que se trate.
+Siempre que sea posible, la elección deberá fundamentarse en el estándar establecido para ese tipo de entidad (para más información ver la **Guía para la identificación y uso de entidades interoperables de la Ciudad Autónoma de Buenos Aires**). En el caso de no existir un estándar, deberá adecuarse a las pautas generales contexto del dataset que se trate.
+
+Por ejemplo, para el caso de localidades que conforman el Área Metropolitana de Buenos Aires (AMBA) se recomienda utilizar los nombres definidos en los [líneamientos de USIG](https://pypi.org/project/usig-normalizador-amba/)
 
 #### Nombres propios
 
 **Se capitalizan** (primera letra de cada palabra es mayúscula, el resto de las letras son minúsculas) **todas las palabras significativas**, salvo las siglas. Las palabras significativas son aquellas que no cumplen la función de artículos o preposiciones.
+
+#### Instituciones del Gobierno de la Ciudad de Buenos Aires
+
+El nombre y las siglas de las instituciones del Gobierno de la Ciudad Autónoma de Buenos Aires serán los establecidos en la [estructura de gobierno](http://www.buenosaires.gob.ar/organigrama/?menu_id=505) de la Secretaria Legal y Técnica. Se recomienda revisar la **[Guía para el uso y la publicación de metadatos del Gobierno de la Ciudad Autónoma de Buenos Aires](guia_metadatos.md)**.
 
 #### Siglas
 
@@ -1068,15 +1083,16 @@ Esta recomendación no contempla estos casos específicos:
 
 #### Coordenadas
 
-Para registrar datos de coordenadas geográficas de puntos, usamos números decimales. Los campos deberán llamarse "latitud" y “longitud”. Cuando sea conveniente especificar el nombre de la entidad de la cual se consignan las coordenadas, se usarán los sufijos “_latitud” y “_longitud”.
+Para registrar datos de coordenadas geográficas de puntos, usamos números decimales. Los campos deberán llamarse "lat" y “long”. Cuando sea conveniente especificar el nombre de la entidad de la cual se consignan las coordenadas, se usarán los sufijos “_lat” y “_long”. Para más información se recomienda visitar el [GeoCoder](http://ws.usig.buenosaires.gob.ar/geocoder/2.2) de la USIG
+
 
 <span class="no-recomendado">**No recomendado**</span>
 
 <table>
 <tbody>
   <tr>
-    <td>latitud</td>
-    <td>longitud</td>
+    <td>lat</td>
+    <td>long</td>
   </tr>
   <tr>
     <td>34º 11' 30''</td>
@@ -1091,8 +1107,8 @@ Para registrar datos de coordenadas geográficas de puntos, usamos números deci
 <table>
 <tbody>
   <tr>
-    <td>latitud</td>
-    <td>longitud</td>
+    <td>lat</td>
+    <td>long</td>
   </tr>
   <tr>
     <td>-34.6043222</td>
@@ -1173,6 +1189,12 @@ Lunes a Miercoles y Viernes 8 a 11 y 14 a 18 hs -> "LUN-MIE_VIE__08:00-11:00_14:
 Lunes a Miercoles 8 a 11 y de Viernes a Domingo 9 a 10 -> "LUN-MIE__08:00-11:00 VIE-DOM__09:00-10:00"
 ```
 
+### Otros estándares sectoriales
+
+* Se utilizará el estándar de Contrataciones Abiertas ([Open Contracting Data Standard](http://standard.open-contracting.org/)) para la publicación de datos vinculados con contrataciones públicas.
+
+* Siguiendo los lineamientos del Ministerio de Desarrollo Urbano y Transporte, los datos de movilidad se publicarán de acuerdo al estándar abierto GTFS ([General Transit Feed Standard](https://developers.google.com/transit/gtfs/?hl=es)).
+
 ### Booleano
 
 * A menos que se indique lo contrario, se identificarán con los valores *true* o *false*.
@@ -1183,3 +1205,6 @@ Lunes a Miercoles 8 a 11 y de Viernes a Domingo 9 a 10 -> "LUN-MIE__08:00-11:00 
 
 * Si existe la posibilidad de que haya otro valor que no sea *true*, *false* o "valor ausente" significa que se eligió un tipo de datos incorrecto: este no es booleano, el tipo de dato booleano es binario y sólo admite 2 valores de verdad (aparte del caso del “valor ausente”).
 
+## Glosario
+
+Ver [Glosario](glosario.md)

@@ -1,35 +1,18 @@
-site_name: Paquete de Apertura de Datos de la República Argentina
-site_url: https://datosgobar.github.io/paquete-apertura-datos
-site_description: Recursos para la apertura de datos públicos nacionales y sub-nacionales en Argentina.
-site_author: Datos Argentina
-repo_url: https://github.com/datosgobar/paquete-apertura-datos/
+site_name: Estrategia de Apertura de Datos del GCBA
+site_url: https://racofernandez.github.io/guia-datos
+site_description: Recursos para la apertura de datos públicos del Gobierno de la Ciudad Autónoma de Buenos Aires.
+site_author: Buenos Aires Data
+repo_url: https://github.com/racofernandez/guia-datos
 
 nav:
   - Inicio: index.md
-  - Material introductorio: https://www.argentina.gob.ar/sites/default/files/2._kit_de_datos_abiertos.pdf
-    # - Kit de Datos Abiertos: https://www.argentina.gob.ar/sites/default/files/2._kit_de_datos_abiertos.pdf
-  - Guías de buenas prácticas:
-    - Guía para la publicación de datos en formatos abiertos: guia_abiertos.md
-    - Guía para la identificación y uso de entidades interoperables: guia_interoperables.md
-    - Guía para el uso y la publicación de metadatos: guia_metadatos.md
-  - Guías de implementación:
-    - Guía para la apertura de datos en organismos de la Administración Pública Nacional: http://datos.gob.ar/acerca/seccion/Public%C3%A1%20datos
-    - Guía para la apertura de datos en gobiernos subnacionales: guia_subnacionales.md
+  - Guía para la publicación de datos en formatos abiertos: guia_abiertos.md
+  - Guía para la identificación y uso de entidades interoperables: guia_interoperables.md
+  - Guía para el uso y la publicación de metadatos: guia_metadatos.md
+  - Política de Datos Abiertos: guia_metadatos.md 
   - Glosario: glosario.md
 
-theme: datosgobar_docs
-
-# # extensiones recomendadas con este theme
-markdown_extensions:
-  - markdown.extensions.toc:
-      anchorlink: true
-      permalink: '&#128279;'
-  - fenced_code
-  - codehilite
-  - admonition
-
-extra_css:
-  - css/extra_rtd.css
-  - css/table_styles.css
+theme:
+  name: 'material'
 
 google_analytics: ['UA-91435482-1', "https://datosgobar.github.io/paquete-apertura-datos/"]

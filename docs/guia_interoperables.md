@@ -28,17 +28,17 @@
 
 ## Introducción
 
-Esta guía busca ayudar a los organismos a instrumentar la Política de Datos Abiertos impulsada desde el Gobierno de la Nación Argentina, a través del Decreto N° 117/2016 del 12 de enero de 2016.
+Esta guía busca ayudar a los organismos de la Administración Centralizada y Descentralizada y a las Entidades Autárquicas del Gobierno de la Ciudad Autónoma de Buenos Aires a instrumentar los lineamientos en materia de apertura de datos públicos establecidos en los Decretos N°[156/2012](https://boletinoficial.buenosaires.gob.ar/normativaba/norma/190097) y N° [478/2013](https://boletinoficial.buenosaires.gob.ar/normativaba/norma/234859) y a mejorar la calidad y la gestión de los datos generados por estas entidades. Está basada en la [Guía para la identificación y uso de entidades interoperables](https://paquete-apertura-datos.readthedocs.io/es/stable/guia_interoperables.html) elaborada por el equipo de la Dirección Nacional de Datos e Información Pública de la Secretaría de Gobierno de Modernización de la Jefatura de Gabinete de Ministros de la Nación. 
 
 ## Objetivo de esta guía
 
-Esta es una **guía de buenas prácticas para el uso de entidades interoperables**. Se trata de datos básicos y fundamentales cuyo uso se repite frecuentemente entre datasets de temáticas y fuentes distintas.
+Esta es una **guía de buenas prácticas para el uso de entidades interoperables** para datos del Gobierno de la Ciudad Autónoma de Buenos Aires (GCABA). Se trata de datos básicos y fundamentales cuyo uso se repite frecuentemente entre datasets de temáticas y fuentes distintas.
 
-Para hacer estas recomendaciones, nos basamos en estándares usados a nivel nacional e internacional y en la experiencia de trabajo del equipo de la Dirección Nacional de Datos e Información Pública del Secretaría de Gobierno de Modernización de la Jefatura de Gabinete de Ministros de la Nación.
+Para hacer estas recomendaciones, nos basamos en la [guía del Gobierno Nacional](https://paquete-apertura-datos.readthedocs.io/es/stable/guia_interoperables.html), en estándares usados a nivel nacional e internacional y en la experiencia de trabajo del equipo de la Dirección General de Calidad Institucional y Gobierno Abierto, de la Subsecretaría de Gestión Estratégica y Calidad Institucional, Secretaría General y Relaciones Institucionales del Gobierno de la Ciudad Autónoma de Buenos Aires.
 
 Esta es **una guía colaborativa y en progreso**. Valoramos, y alentamos, a organizaciones y ciudadanos a plantear ideas, sugerencias, y comentarios que nos ayuden a crear un mejor documento.
 
-Para una discusión sobre la estandarización de datos, recomendamos consultar la **Guía para la publicación de datos en formatos abiertos**. Este documento se complementa con esa guía y la **Guía para el uso y la publicación de metadatos**.
+Para una discusión sobre la estandarización de datos, recomendamos consultar la **[Guía para la publicación de datos en formatos abiertos de la Ciudad de Buenos Aires](guia_abiertos.md)**. Este documento se complementa con esa guía y la **[Guía para el uso y la publicación de metadatos de la Ciudad de Buenos Aires](guia_metadatos.md)**.
 
 ## Datos de entidades interoperables
 
@@ -58,7 +58,7 @@ Algunos ejemplos de entidades interoperables pueden ser:
 
 * **Transversales** (afectan a la mayoría de las áreas temáticas)
 
-    * **¿Dónde?**: geografía (países, provincias, departamentos, fracciones censales, localidades, direcciones, códigos postales).
+    * **¿Dónde?**: geografía (países, provincias, departamentos, fracciones censales, barrios, comunas, direcciones, códigos postales, plazas).
 
     * **¿Quién?**: personas (físicas, jurídicas). Entidades (niveles gubernamentales, organismos internacionales, otros países, sociedad civil).
 
@@ -74,11 +74,11 @@ Algunos ejemplos de entidades interoperables pueden ser:
 
 Para que los datasets puedan ser interoperables, **deben identificarse todas las entidades interoperables presentes en un dataset y asegurarse de que los datos sobre ellas siguen el mismo estándar**.
 
-A continuación, **proponemos una selección de estándares** producidos por organismos de la Administración Pública Nacional para identificación y uso de entidades interoperables presentes en un activo de datos, en algunas categorías transversales a varias áreas temáticas. **Recomendamos con énfasis usarlos** en todos aquellos casos en los que estén presentes esas entidades. Si por algún motivo esto fuera difícil de aplicar, sugerimos crear un diccionario que permita la traducción de estándares propios a los recomendados.
+A continuación, **proponemos una selección de estándares** siguiendo los producidos por organismos de la Administración Pública Nacional y otros definidos por el Gobierno de la Ciudad Autónoma de Buenos Aires para identificación y uso de entidades interoperables presentes en un activo de datos, en algunas categorías transversales a varias áreas temáticas. **Recomendamos con énfasis usarlos** en todos aquellos casos en los que estén presentes esas entidades. Si por algún motivo esto fuera difícil de aplicar, sugerimos crear un diccionario que permita la traducción de estándares propios a los recomendados.
 
-En los casos de **entidades interoperables específicas sobre alguna temática**, recomendamos **usar el estándar más difundido entre quienes trabajan con frecuencia sobre esa temática dentro de la Administración Pública Nacional**.
+En los casos de **entidades interoperables específicas sobre alguna temática**, recomendamos **usar el estándar más difundido entre quienes trabajan con frecuencia sobre esa temática**.
 
-**Cuando no existan** estándares claros dentro de la APN para algún tipo de entidad interoperable en particular, sugerimos **adoptar el mejor estándar internacional en uso**, y seguirlo en forma consistente en todos los datasets que genere el organismo.
+**Cuando no existan** estándares claros para algún tipo de entidad interoperable en particular, sugerimos **adoptar el mejor estándar internacional en uso**, y seguirlo en forma consistente en todos los datasets que genere el organismo.
 
 **La adopción de estándares** para el uso de datos de entidades interoperables está **sujeto a cambios y versionados. Por eso, siempre es importante comunicarlos** en forma clara y consistente.
 
@@ -90,7 +90,7 @@ Consideramos a los estándares que recomendamos en este documento como suficient
 
 #### Países o territorios internacionales
 
-Los nombres y códigos de países o territorios internacionales deben seguir el estándar [ISO 3166-1](https://es.wikipedia.org/wiki/ISO_3166-1). Recomendamos que el dataset contenga un campo con el código alfabético de 3 dígitos del estándar (Código alfa-3) y otro con el nombre completo del país en español. Para esto, recomendamos usar los "Nombres de uso común" de la [lista de países y sus códigos alfa-3 que publica INDEC](http://www.indec.gov.ar/ftp/cuadros/territorio/codigo_paises.xls).
+Siguiendo los lineamientos definidos para la Administración Pública Nacional, los nombres y códigos de países o territorios internacionales deben seguir el estándar [ISO 3166-1](https://es.wikipedia.org/wiki/ISO_3166-1). Recomendamos que el dataset contenga un campo con el código alfabético de 3 dígitos del estándar (Código alfa-3) y otro con el nombre completo del país en español. Para esto, recomendamos usar los "Nombres de uso común" de la [lista de países y sus códigos alfa-3 que publica INDEC](http://www.indec.gov.ar/ftp/cuadros/territorio/codigo_paises.xls).
 
 En esta guía, elegimos incluir los nombres de países oficiales y en castellano. Sin embargo, la denominación de los países varía de acuerdo al idioma que se utilice. Por eso, hacemos énfasis en la necesidad de incluir el código de país según el estándar ISO 3166, que es ampliamente usado por organismos internacionales.
 
@@ -158,148 +158,148 @@ Se recomienda también que el nombre del campo del código sea "pais_id" o, en e
 
 #### Divisiones o unidades territoriales internas
 
-En el caso de las divisiones o unidades territoriales internas, recomendamos usar el [sistema de identificadores de la cartografía censal](https://www.indec.gob.ar/nivel4_default.asp?id_tema_1=1&id_tema_2=39&id_tema_3=121) del Censo Nacional 2010 del Instituto Nacional de Estadística y Censos (ver [explicación metodológica](http://geoservicios.indec.gov.ar/codgeo/index.php?pagina=definiciones)).
-
-Incluye identificadores numéricos compuestos de una cantidad fija de dígitos (el tipo de datos debe ser textual, ya que tiene ceros a la izquierda que son significativos) para, entre otras, las siguientes entidades interoperables:
+En el caso de las divisiones o unidades territoriales internas, recomendamos usar el sistema de identificadores de la cartografía censal del Censo Nacional 2010 del Instituto Nacional de Estadística y Censos ([listado de códigos](https://redatam.indec.gob.ar/redarg/CENSOS/CPV2010rad/Docs/codigos_provincias.pdf) y [explicación metodológica](http://geoservicios.indec.gov.ar/codgeo/index.php?pagina=definiciones)) que incluye identificadores numéricos compuestos de una cantidad fija de dígitos (el tipo de datos debe ser textual, ya que tiene ceros a la izquierda que son significativos) para, entre otras, las siguientes entidades interoperables:
 
 * Provincias ([CSV](http://www.ign.gob.ar/descargas/geodatos/departamento.csv) | [SHP](http://www.ign.gob.ar/descargas/geodatos/provincia.zip) | [GEOJSON](http://www.ign.gob.ar/descargas/geodatos/provincia_geojson.zip))
-* Departamentos (Partidos o Comunas) ([CSV](http://www.ign.gob.ar/descargas/geodatos/departamento.csv) | [SHP](http://www.ign.gob.ar/descargas/geodatos/departamento.zip) | [GEOJSON](http://www.ign.gob.ar/descargas/geodatos/departamento_geojson.zip))
+* Comunas
+* Barrios
 * Fracciones Censales
 * Radios Censales
-* Municipios ([CSV](http://www.ign.gob.ar/descargas/geodatos/municipio.csv) | [SHP](http://www.ign.gob.ar/descargas/geodatos/municipio.zip) | [GEOJSON](http://www.ign.gob.ar/descargas/geodatos/municipio_geojson.zip))
-* Localidades ([CSV](https://apis.datos.gob.ar/georef/api/localidades?formato=csv&max=5000) | [JSON](https://apis.datos.gob.ar/georef/api/localidades?formato=json&max=5000))
-* Aglomerados
 
-Este sistema de identificadores es consistente con el  usado por la Base de Asentamientos Humanos de la República Argentina ([BAHRA](http://www.bahra.gob.ar/)) para la identificación de localidades, que además lo extiende para incluir la posibilidad de referenciar sitios edificados (sumando 3 dígitos al identificador de una Localidad).
+¿Cómo se relacionan estas entidades entre sí? Veremos que estas unidades pueden ordenarse jerárquicamente de modo tal que algunas contienen a las otras, aunque no en todos los casos. A continuación, explicamos los conjuntos de entidades que conforman una jerarquía internamente consistente.
 
-Sin embargo, en esta guía no abordamos los identificadores de entidades puntuales derivadas de las Localidades (que implican avanzar a niveles de desagregación geográfica mayores).
+##### A. Comunas -> Barrios -> Fracciones Censales -> Radios Censales (CBFR)
 
-Los nombres geográficos presentados en la BAHRA son oficiales, pero no se encuentran validados. El establecimiento de un procedimiento para la validación de los nombres geográficos es una tarea pendiente para la República Argentina.
+La Ciudad de Buenos Aires constituye una **excepción** a la regla PDL (partido- departamento- localidad), utilizada a nivel nacional, ya que es una localidad compuesta por departamentos (comunas), de manera que no puede componerse identificador compuesto de tipo provincia-departamento-localidad. Para este caso, recomendamos usar el identificador de jurisdicción de primer nivel de la Ciudad de Buenos Aires ("02").
 
-¿Cómo se relacionan estas entidades entre sí? Veremos que estas unidades pueden ordenarse jerárquicamente de modo tal que algunas contienen a las otras, aunque no en todos los casos.  A continuación,  explicamos los conjuntos de entidades que conforman una jerarquía internamente consistente.
+**Las comunas son las jurisdicciones de primer orden** que marcan la división de la Ciudad Autónoma de Buenos Aires. El territorio municipal se divide en 15  comunas, siendo que algunos territorios pueden ser marcados como “Indeterminado” (98) o “Sin declarar-Desconocido-Ignorado” (99).
 
-##### A. Provincias -> Departamentos -> Fracciones Censales -> Radios Censales (PDFR)
+La generación de los límites de comunas se basó en la [Ordenanza Nº 23.698 (11 de junio de 1968)](https://boletinoficial.buenosaires.gob.ar/normativaba/norma/84707) completada por la [Ordenanza Nº 26607 de 1972](https://boletinoficial.buenosaires.gob.ar/normativaba/norma/53431).
 
-**La provincia es la jurisdicción de primer orden** que marca una división político-territorial de la República Argentina. El territorio nacional se divide en 23 de ellas (más la Ciudad de Buenos Aires), siendo que algunos territorios pueden ser marcados como "Indeterminado" (98) o "Sin declarar-Desconocido-Ignorado" (99).
+En Septiembre 2006 la modificación en base a la Ley Nº 1.777 y sus modificatorias que redefine los límites de los Barrios de la Ciudad y deroga la Ordenanza 26.607 de 1972. En Noviembre 2006 se delimitaron los nuevos límites de Barrios según Ley Nº 1.777 generados por la Dirección General Electoral. En Junio 2007 ocurrió la última modificación a la Ley Nº 1777. Fue sancionada como Ley Nº 2329 del 10/5/07, promulgada por Decreto Nº 779/07 del 01/06/2007. En Abril 2008 la última modificación a la Ley de Comunas 1.777 fue publicada en el Boletín Oficial Nº 2.910 del 16/04/2008.  Fue sancionada como Ley Nº 2.560/08. En Diciembre del 2011 se ajustaron los límites de cada barrio a la última versión de la topología de las calles de CABA.
 
-Una **provincia se subdivide** a su vez en jurisdicciones de segundo orden que marcan una división político-administrativa y son llamadas **departamentos** en la mayoría de las provincias (con la excepción de la Provincia de Buenos Aires -Partidos- y la Ciudad de Buenos Aires -comunas-).
+**Una comuna se subdivide a su vez en jurisdicciones de segundo orden** llamadas [barrios](https://data.buenosaires.gob.ar/dataset/barrios).
 
-Un **departamento, a su vez, se puede subdividir en fracciones censales**, mientras que una **fracción censal se subdivide en radios censales**. Estas son unidades censales que forman parte de la estructura de relevamiento censal.
+La concepción de los límites de barrios fue digitalizada sobre los ejes de calle producto de la restitución del vuelo aerofotogramétrico de 1997 y, actualizaciones en base a los límites establecidos por Ordenanza N° 23.698 del 11 de junio de 1968, completada por la Ordenanza Nº 26607 de 1972.
 
-El tamaño de las fracciones y los radios en áreas urbanas se determina según la cantidad de viviendas. La fracción tiene un promedio de 5000 viviendas mientras que el radio tiene un promedio de 300.
+Dicha Ley y sus modificatorias fueron derogadas y se redefinieron los nuevos límites por Ley Nº1777. Modificado a Abril de 2008, en base a la Ley Nº 2.650/08 que establece los nuevos límites de Barrios. En Diciembre del 2011 se ajustaron los límites de cada barrio a la última versión de la topología de las calles de CABA.
 
-Para bordes de localidades el radio urbano puede bajar a 200 viviendas, aproximadamente, y en localidades aisladas a 100 viviendas. En zonas rurales las fracciones y radios se determinan por la conjunción de distintos factores: características del terreno, accesibilidad y distancia entre las viviendas.
+**Un barrio, a su vez, se puede subdividir en fracciones censales**, mientras que una [fracción censal se subdivide en radios censales](https://data.buenosaires.gob.ar/dataset/informacion-censal-por-radio). Estas son unidades censales que forman parte de la estructura de relevamiento censal.
+
+El tamaño de las fracciones y los radios en áreas urbanas se determina según la cantidad de viviendas. La fracción tiene un promedio de 5000 viviendas mientras que el radio tiene un promedio de 300 a 500, considerando que no es posible dividir una manzana aunque supere este promedio.
+
+Respecto a las Fracciones y Radios Censales, los mismos siguen la metodología generada por INDEC, teniendo la siguiente lógica de generación considerando el código de provincia como “02” y las comunas de la siguiente tabla: 
+
+<table>
+<tbody>
+  <tr>
+    <td>Código</td>
+    <td>Comuna</td>
+  </tr>
+  <tr>
+    <td>007</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>014</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>021</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>028</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>035</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>042</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td>049</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <td>056</td>
+    <td>8</td>
+  </tr>
+  <tr>
+    <td>063</td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>070</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>077</td>
+    <td>11</td>
+  </tr>
+  <tr>
+    <td>084</td>
+    <td>12</td>
+  </tr>
+  <tr>
+    <td>091</td>
+    <td>13</td>
+  </tr>
+  <tr>
+    <td>098</td>
+    <td>14</td>
+  </tr>
+  <tr>
+    <td>105</td>
+    <td>15</td>
+  </tr>
+</tbody>
+</table>
+
+Cabe aclarar que los barrios no integran la codificación de estas unidades pero tienen coincidencia geográfica.
 
 Los identificadores de cada una de estas divisiones se componen, sucesivamente, así:
 
 <table id="identificadores-geograficos">
   <tr>
-    <td><bold>Provincia</bold><br/>
+    <td><bold>provincia</bold><br/>
     2 dígitos<br/>
-    "06"<br/>
-    Buenos Aires
+    "02"<br/>
+    CABA
     </td>
-    <td><bold>Departamento</bold><br/>
+    <td><bold>comuna</bold><br/>
     5 dígitos<br/>
-    "06007"<br/>
-    Adolfo Alsina
+    "02007"<br/>
+    Comuna 1
     </td>
-    <td><bold>Fracción Censal</bold><br/>
+    <td><bold>fracción censal</bold><br/>
     7 dígitos<br/>
-    "0600702"
+    "0200702"
     </td>
-    <td><bold>Radio Censal</bold><br/>
+    <td><bold>radio censal</bold><br/>
     9 dígitos<br/>
-    "060070201"
+    "020070201"
     </td>
   </tr>
 </table>
 
 
-* **Provincia**: 2 dígitos. Ej.: "06" es la Provincia de “Buenos Aires”.
+* **Provincia**: 2 dígitos. Ej.: "02" es la "Ciudad Autónoma de Buenos Aires".
 
-* **Departamento** (Partido -Provincia de Buenos Aires- o Comuna -Ciudad de Buenos Aires-): 5 dígitos. - Ej.: "06007" es el Departamento “Adolfo Alsina” de la provincia de “Buenos Aires”.
+* **Comuna**: 5 dígitos. - Ej.: "02007" es la Comuna 1 de la “Ciudad Autónoma de Buenos Aires”.
 
-* **Fracciones censales**: 7 dígitos. - Ej.: "0600702" es una Fracción Censal del Departamento “Adolfo Alsina” de la provincia de “Buenos Aires”.
+* **Fracciones censales**: 7 dígitos. - Ej.: "0200702" es una Fracción Censal de la Comuna 1 de la “Ciudad Autónoma de Buenos Aires”.
 
-* **Radios censales**: 9 dígitos. - Ej.: "060070201" es un Radio Censal de la Fracción Censal “0600702” del Departamento “Adolfo Alsina” de la provincia de “Buenos Aires”.
+* **Radios censales**: 9 dígitos. - Ej.: "020070201" es un Radio Censal de la Fracción Censal “0200702” de la Comuna 1 de la “Ciudad Autónoma de Buenos Aires”.
 
-##### B. Provincias -> Municipios (PM)
+##### B. Villas -> [Unidades Territoriales de Inclusión Urbana](https://data.buenosaires.gob.ar/dataset/unidades-territoriales-de-inclusion-urbana)
 
-**Los municipios están contenidos por las provincias**, pero no las subdividen. Entre medio de ellos puede haber áreas rurales que no pertenezcan a ningún municipio. Los municipios son figuras políticas cuya normativa es potestad de cada provincia y puede haber diferencias significativas entre lo que se considera un municipio en cada una de ellas. Por ejemplo, en algunas provincias los municipios coinciden con los departamentos.
+A desarrollar
 
-Sin embargo, un municipio siempre está completamente contenido por una sola provincia. Entre las divisiones territoriales internas consideradas en este documento, no hay otra que siempre contenga municipios completos. La superficie de un municipio puede atravesar los límites de departamentos, fracciones y radios censales (un municipio puede estar presente en uno o varios de ellos).
-
-Los identificadores de los municipios se componen entonces con los de las provincias, así:
-
-
-<table id="identificadores-geograficos" style="width: 50%" >
-  <tr>
-    <td><bold>Provincia</bold><br/>
-    2 dígitos<br/>
-    "14"<br/>
-    Córdoba
-    </td>
-    <td><bold>Municipio</bold><br/>
-    6 dígitos<br/>
-    "140399"<br/>
-    Camerillo
-    </td>
-  </tr>
-</table>
-
-
-
-* **Municipios**: 6 dígitos. - Ej.: "140399" es el Municipio “Camerillo” de la provincia de “Córdoba”.
-
-##### C. Provincias -> Departamentos -> Localidades (PDL)
-
-Las localidades censales están contenidas tanto por los departamentos como por los municipios. Para componer el identificador se deben usar los departamentos, de tal manera que los primeros 5 dígitos del identificador de una localidad corresponden al identificador del departamento que lo contiene, **los siguientes 3 dígitos son propios de la localidad**:
-
-
-<table style="width: 70%" id="identificadores-geograficos">
-  <tr>
-    <td><bold>Provincia</bold><br/>
-    2 dígitos<br/>
-    "06"<br/>
-    Buenos Aires
-    </td>
-    <td><bold>Departamento</bold><br/>
-    5 dígitos<br/>
-    "06007"<br/>
-    Adolfo Alsina
-    </td>
-    <td><bold>Localidad</bold><br/>
-    8 dígitos<br/>
-    "06007010"<br/>
-    Carhué
-    </td>
-      </tr>
-</table>
-
-
-
-* **Localidades**: 8 dígitos. - Ej.: "06007010" es la localidad “Carhué” del departamento “Adolfo Alsina” de la provincia de “Buenos Aires”.
-
-La Ciudad de Buenos Aires constituye una excepción a esta regla ya que es una localidad compuesta por departamentos (comunas), de manera que no puede componerse identificador compuesto de tipo provincia-departamento-localidad. Para este caso, recomendamos usar el identificador de jurisdicción de primer nivel de la Ciudad de Buenos Aires ("02").
-
-##### D. Aglomerados
-
-Los aglomerados están definidos como conjuntos de localidades y tienen un* id *simple de 4 dígitos (no compuesto) ya que un aglomerado puede cruzar el límite entre 2 municipios, departamentos o provincias.
-
-
-<table style="width: 30%" id="identificadores-geograficos">
-  <tr>
-    <td><bold>Aglomerado</bold><br/>
-    4 dígitos<br/>
-    "0001"<br/>
-    Gran Buenos Aires
-    </td>
-    </tr>
-</table>
-
-
-##### E. ¿Cómo nombrar los campos?
+##### C. ¿Cómo nombrar los campos?
 
 Al igual que en el caso de los países o territorios internacionales, el dataset debe contener un campo con el código de la división o unidad territorial interna y otro con el nombre o descripción (en caso de que la tenga, anteriormente dijimos que las fracciones y radios censales no tienen nombre o descripción).
 
@@ -327,22 +327,12 @@ Resaltamos la importancia de que el tipo de datos del campo de un identificador 
     <td>valor_usd</td>
   </tr>
   <tr>
-    <td>Santiago del Estero</td>
-    <td>Exportación</td>
-    <td>1405678</td>
-  </tr>
-  <tr>
-    <td>Stgo. del Estero</td>
-    <td>Importación</td>
-    <td>2456786</td>
-  </tr>
-  <tr>
-    <td>Buenos Aires</td>
+    <td>Ciudad de Buenos Aires</td>
     <td>Exportación</td>
     <td>44949874</td>
   </tr>
   <tr>
-    <td>BA</td>
+    <td>CABA</td>
     <td>Importación</td>
     <td>44040711</td>
   </tr>
@@ -361,28 +351,16 @@ Resaltamos la importancia de que el tipo de datos del campo de un identificador 
     <td>valor_usd</td>
   </tr>
   <tr>
-    <td>86</td>
-    <td>Santiago del Estero</td>
-    <td>Exportación</td>
-    <td>1405678</td>
-  </tr>
-  <tr>
-    <td>86</td>
-    <td>Santiago del Estero</td>
-    <td>Importación</td>
-    <td>2456786</td>
-  </tr>
-  <tr>
-    <td>06</td>
-    <td>Buenos Aires</td>
+    <td>02</td>
+    <td>CABA</td>
     <td>Exportación</td>
     <td>44949874</td>
   </tr>
   <tr>
-    <td>06</td>
-    <td>Buenos Aires</td>
+    <td>02</td>
+    <td>CABA</td>
     <td>Importación</td>
-    <td>440407</td>
+    <td>44040711</td>
   </tr>
 </tbody>
 </table>
@@ -390,12 +368,16 @@ Resaltamos la importancia de que el tipo de datos del campo de un identificador 
 
 #### Direcciones y lugares
 
-Siempre que sea posible, cuando un dataset contenga información que identifica a un punto en el espacio geográfico, recomendamos incluir las coordenadas de la manera establecida en la tercera tabla. Las coordenadas de un punto deben ser números decimales negativos o positivos contenidos en dos campos llamados "latitud" y “longitud”.
+Siempre que sea posible, cuando un dataset contenga información que identifica a un punto en el espacio geográfico, recomendamos incluir las coordenadas de la manera establecida en la tercera tabla. Las coordenadas de un punto deben ser números decimales negativos o positivos contenidos en dos campos llamados "lat" y long.
 
 Si el dataset contiene información sobre direcciones (especialmente en los casos en los que no sea posible proveer coordenadas), recomendamos incluir:
 
 * "calle_nombre"
-* "calle_numero"
+* "calle_altura"
+* "barrio"
+* "comuna"
+* "codigo_postal"
+* "codigo_postal_argentino"
 * "localidad_id"
 * "localidad_nombre"
 * "provincia_id"
@@ -406,6 +388,8 @@ Si el dataset incluye direcciones fuera del territorio argentino, deben además 
 * "pais_id"
 * "pais_nombre"
 
+Para normalizar las direcciones de la CABA, recomendamos utilizar el [Normalizador de direcciones CABA](http://usig.buenosaires.gob.ar/) de la Unidad de Sistemas de Información Geográfica (USIG) del Gobierno de la Ciudad Autónoma de Buenos Aires.
+
 <span class="no-recomendado">**No recomendado**</span>
 
 <table>
@@ -414,7 +398,7 @@ Si el dataset incluye direcciones fuera del territorio argentino, deben además 
   <tr>
     <td>lugar_nombre</td>
     <td>calle_nombre</td>
-    <td>calle_numero</td>
+    <td>calle_altura</td>
     <td>ciudad</td>
   </tr>
   <tr>
@@ -443,7 +427,7 @@ Si el dataset incluye direcciones fuera del territorio argentino, deben además 
   <tr>
     <td style="font-size:11px;">lugar_nombre</td>
     <td style="font-size:11px;">calle_nombre</td>
-    <td style="font-size:11px;">calle_numero</td>
+    <td style="font-size:11px;">calle_altura</td>
     <td style="font-size:11px;">localidad_id</td>
     <td style="font-size:11px;">localidad_nombre</td>
     <td style="font-size:11px;">provincia_id</td>
@@ -454,9 +438,9 @@ Si el dataset incluye direcciones fuera del territorio argentino, deben además 
     <td>Cerrito</td>
     <td>604</td>
     <td>02001010</td>
-    <td style="font-size:11px;">Ciudad de Buenos Aires</td>
+    <td style="font-size:11px;">CABA</td>
     <td>02</td>
-    <td style="font-size:11px;">Ciudad Autónoma de Buenos Aires</td>
+    <td style="font-size:11px;">CABA</td>
   </tr>
 </tbody>
 </table>
@@ -468,13 +452,48 @@ Si el dataset incluye direcciones fuera del territorio argentino, deben además 
 <tbody>
   <tr>
     <td>lugar_nombre</td>
-    <td>latitud</td>
-    <td>longitud</td>
+    <td>lat</td>
+    <td>long</td>
   </tr>
   <tr>
     <td>Teatro Colón</td>
     <td>-34.601041</td>
     <td>-58.383079</td>
+  </tr>
+</tbody>
+</table>
+
+
+**Aceptable 3** - dirección con esquina
+
+<table>
+ <colgroup>
+    <col style="width:14%">
+    <col style="width:14%">
+    <col style="width:14%">
+    <col style="width:14%">
+     <col style="width:15%">
+    <col style="width:13%">
+    <col style="width:16%">
+  </colgroup>
+<tbody>
+  <tr>
+    <td style="font-size:11px;">lugar_nombre</td>
+    <td style="font-size:11px;">calle_nombre</td>
+    <td style="font-size:11px;">calle_cruce</td>
+    <td style="font-size:11px;">localidad_id</td>
+    <td style="font-size:11px;">localidad_nombre</td>
+    <td style="font-size:11px;">provincia_id</td>
+    <td style="font-size:11px;">provincia_nombre</td>
+  </tr>
+  <tr>
+    <td>Teatro Colón</td>
+    <td>Cerrito</td>
+    <td>Tucumán</td>
+    <td>02001010</td>
+    <td style="font-size:11px;">CABA</td>
+    <td>02</td>
+    <td style="font-size:11px;">CABA</td>
   </tr>
 </tbody>
 </table>
@@ -487,22 +506,22 @@ Si el dataset incluye direcciones fuera del territorio argentino, deben además 
   <tr>
     <td  style="font-size:11px;">lugar_nombre</td>
     <td style="font-size:11px;">calle_nombre</td>
-    <td style="font-size:11px;">calle_numero</td>
+    <td style="font-size:11px;">calle_altura</td>
     <td style="font-size:11px;">localidad_id</td>
     <td style="font-size:11px;">localidad_nombre</td>
     <td style="font-size:11px;">provincia_id</td>
     <td style="font-size:11px;">provincia_nombre</td>
-    <td style="font-size:11px;">latitud</td>
-    <td style="font-size:11px;">longitud</td>
+    <td style="font-size:11px;">lat</td>
+    <td style="font-size:11px;">long</td>
   </tr>
   <tr>
     <td style="font-size:10px;">Teatro Colón</td>
     <td style="font-size:9px;">Cerrito</td>
     <td style="font-size:10px;">604</td>
     <td style="font-size:10px;">02001010</td>
-    <td style="font-size:10px;">Ciudad de Buenos Aires</td>
+    <td style="font-size:10px;">CABA</td>
     <td style="font-size:10px;">02</td>
-    <td style="font-size:10px;">Ciudad Autónoma de Buenos Aires</td>
+    <td style="font-size:10px;">CABA</td>
     <td style="font-size:10px;">-34.601041</td>
     <td style="font-size:10px;">-58.383079</td>
   </tr>
@@ -512,7 +531,7 @@ Si el dataset incluye direcciones fuera del territorio argentino, deben además 
 
 #### **Códigos postales**
 
-Los códigos postales deben estar contenidos en un campo llamado "codigo_postal" y seguir el formato definido por el Correo Argentino para el [Código Postal Argentino (CPA)](http://www.correoargentino.com.ar/formularios/cpa) a partir de la competencia asignada por la Secretaría de Comunicaciones mediante la Resolución N° 1368/98.
+Los códigos postales deben estar contenidos en un campo llamado "codigo_postal" y seguir el formato definido por el Correo Argentino para el [Código Postal Argentino (CPA)](http://www.correoargentino.com.ar/formularios/cpa) a partir de la competencia asignada por la Secretaría de Comunicaciones mediante la Resolución N° 1368/98. Cuando se haga referencia al CPA, el campo deberá llamarse "codigo_postal_argentino". 
 
 El CPA amplía la información del código postal, incorporando 4 letras que permiten identificar cada cara de manzana en las localidades de más de 500 habitantes. Las localidades de menos de 500 habitantes poseen un único CPA.
 
@@ -552,7 +571,7 @@ Ej.: C1426BMD
 <table id="una-columna">
 <tbody>
   <tr>
-    <td>codigo_postal</td>
+    <td>codigo_postal_argentino</td>
   </tr>
   <tr>
     <td>C1426BMD</td>
@@ -834,4 +853,13 @@ En el caso de que el dataset pueda contener personas jurídicas fuera de la juri
 
 
 Dependiendo de la forma de recolección de los datos, la temática particular del dataset y las capacidades del organismo responsable del mantenimiento del activo de datos, puede ser difícil la recolección comprehensible de "_id" y “_tipo_id” de las personas jurídicas de jurisdicción extranjera. Por eso, estos campos pueden llegar a quedar frecuentemente en blanco (valor ausente). Sin embargo, recomendamos con especial énfasis registrar el nombre (“_desc”) de la entidad en cuestión y el país bajo cuya jurisdicción se encuentra.
+
+
+### **Entidades de Gobierno de la Ciudad Autónoma de Buenos Aires**
+
+A desarrollar
+
+## Glosario
+
+Ver [Glosario](glosario.md)
 
