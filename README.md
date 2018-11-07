@@ -1,14 +1,12 @@
-# paquete-apertura-datos
+# guia-datos
 
 [![Documentation Status](http://readthedocs.org/projects/paquete-apertura-datos/badge/?version=stable)](http://paquete-apertura-datos.readthedocs.org/es/stable/?badge=stable)
 
-Repositorio de ejemplos, documentación y recursos del Paquete de Apertura de Datos de la República Argentina.
-
-## Componentes del Paquete
+Repositorio de las guías de datos del Gobierno de la Ciudad de Buenos Aires.
 
 ### Herramientas
 
-* **[Portal Andino](https://github.com/datosgobar/portal-andino)**: portal empaquetado y distribuible desarrollado sobre la base de la plataforma CKAN. Fue diseñado para hacer más fácil la apertura y federación de activos de datos en Argentina.
+* **[Portal Andino](https://github.com/datosgobar/portal-andino)**: portal empaquetado y distribuible desarrollado por el equipo de la Dirección Nacional de Datos e Información Pública de la Secretaría de Gobierno de Modernización de la Jefatura de Gabinete de Ministros de la Nación sobre la base de la plataforma CKAN. Fue diseñado para hacer más fácil la apertura y federación de activos de datos en Argentina.
 * **[pydatajson](https://github.com/datosgobar/pydatajson)**: librería en python para analizar, generar y validar metadatos en formato data.json. Facilita el manejo de metadatos de catálogos de datos en Argentina.
 
 ### Guías de buenas prácticas
@@ -17,11 +15,9 @@ Las **[guías de buenas prácticas](http://paquete-apertura-datos.readthedocs.io
 
 Podés hacer esto [cargando un nuevo _issue_](https://github.com/datosgobar/paquete-apertura-datos/issues/new), o [respondiendo a un _issue_ ya existente](https://github.com/datosgobar/paquete-apertura-datos/issues).
 
-* **[Guía para la publicación de datos en formatos abiertos](http://paquete-apertura-datos.readthedocs.io/es/stable/guia_abiertos.html)**
-* **[Guia para la identificación y uso de entidades interoperables](http://paquete-apertura-datos.readthedocs.io/es/stable/guia_interoperables.html)**
-* **[Guía para el uso y la publicación de metadatos](http://paquete-apertura-datos.readthedocs.io/es/stable/guia_metadatos.html)**
-
-Si querés contribuir activamente con las guías o ir mirando lo que se viene en futuras versiones, te recomendamos ver la **[versión en desarrollo](http://paquete-apertura-datos.readthedocs.io/es/latest)**, donde trabajamos los próximos cambios antes de su publicación definitiva.
+* **[Guía para la publicación de datos en formatos abiertos](https://datosgcba.github.io/guia-datos/guia_abiertos)**
+* **[Guia para la identificación y uso de entidades interoperables](https://datosgcba.github.io/guia-datos/guia_interoperables/)**
+* **[Guía para el uso y la publicación de metadatos](https://datosgcba.github.io/guia-datos/guia_metadatos/)**
 
 ## Estructura del repositorio
 
@@ -32,8 +28,8 @@ Si querés contribuir activamente con las guías o ir mirando lo que se viene en
 
 ## Contacto
 
-Te invitamos a [crearnos un issue](https://github.com/datosgobar/paquete-apertura-datos/issues/new) en caso de que encuentres algún bug o tengas feedback de alguna parte de `paquete-apertura-datos`.
+Te invitamos a [crearnos un issue](https://github.com/datosgcba/guia-datos/issues/new) en caso de que encuentres algún bug o tengas feedback de alguna parte de `guia-datos`.
 
-Para todo lo demás, podés mandarnos tu comentario o consulta a [datos@modernizacion.gob.ar](mailto:datos@modernizacion.gob.ar).
+Para todo lo demás, podés mandarnos tu comentario o consulta a [gobiernoabierto@buenosaires.gob.ar](mailto:gobiernoabierto@buenosaires.gob.ar).
 
 
