@@ -62,9 +62,7 @@
     
     <link rel="stylesheet" href="../assets/fonts/material-icons.css">
     
-      <link rel="stylesheet" href="../css/extra_rtd.css">
-    
-      <link rel="stylesheet" href="../css/table_styles.css">
+      <link rel="stylesheet" href="../css/extra.css">
     
     
   </head>
@@ -709,16 +707,16 @@
                   <a href="https://github.com/racofernandez/paquete-apertura-datos/edit/master/docs/guia_metadatos.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="guia-para-el-uso-y-la-publicacion-de-metadatos-del-gobierno-de-la-ciudad-autonoma-de-buenos-aires"><a class="toclink" href="#guia-para-el-uso-y-la-publicacion-de-metadatos-del-gobierno-de-la-ciudad-autonoma-de-buenos-aires">Guía para el uso y la publicación de metadatos del Gobierno de la Ciudad Autónoma de Buenos Aires</a><a class="headerlink" href="#guia-para-el-uso-y-la-publicacion-de-metadatos-del-gobierno-de-la-ciudad-autonoma-de-buenos-aires" title="Permanent link">&#128279;</a></h1>
-<h2 id="introduccion"><a class="toclink" href="#introduccion">Introducción</a><a class="headerlink" href="#introduccion" title="Permanent link">&#128279;</a></h2>
-<h3 id="version"><a class="toclink" href="#version">Versión</a><a class="headerlink" href="#version" title="Permanent link">&#128279;</a></h3>
+                <h1 id="guia-para-el-uso-y-la-publicacion-de-metadatos-del-gobierno-de-la-ciudad-autonoma-de-buenos-aires">Guía para el uso y la publicación de metadatos del Gobierno de la Ciudad Autónoma de Buenos Aires</h1>
+<h2 id="introduccion">Introducción</h2>
+<h3 id="version">Versión</h3>
 <p>Esta guía busca ayudar a los organismos de la Administración Centralizada y Descentralizada y a las Entidades Autárquicas del Gobierno de la Ciudad Autónoma de Buenos Aires a instrumentar los lineamientos en materia de apertura de datos públicos establecidos en los Decretos N°<a href="https://boletinoficial.buenosaires.gob.ar/normativaba/norma/190097">156/2012</a> y N° <a href="https://boletinoficial.buenosaires.gob.ar/normativaba/norma/234859">478/2013</a> y a mejorar la calidad y la gestión de los datos generados por estas entidades. Está basada en la Guía para el uso y la publicación de metadatos elaborada por el equipo de la Dirección Nacional de Datos e Información Pública de la Secretaría de Gobierno de Modernización de la Jefatura de Gabinete de Ministros de la Nación. </p>
-<h3 id="objetivo-de-esta-guia"><a class="toclink" href="#objetivo-de-esta-guia">Objetivo de esta guía</a><a class="headerlink" href="#objetivo-de-esta-guia" title="Permanent link">&#128279;</a></h3>
+<h3 id="objetivo-de-esta-guia">Objetivo de esta guía</h3>
 <p>Esta es una <strong>guía de recomendaciones y buenas prácticas, para el uso y la publicación de metadatos</strong> del Gobierno de la Ciudad Autónoma de Buenos Aires (GCABA).</p>
 <p>Las recomendaciones se basan en la guía del Gobierno Nacional, en estándares usados a nivel nacional e internacional y en la experiencia de trabajo del equipo de la Dirección General de Calidad Institucional y Gobierno Abierto, de la Subsecretaría de Gestión Estratégica y Calidad Institucional, Secretaría General y Relaciones Institucionales del Gobierno de la Ciudad Autónoma de Buenos Aires.</p>
 <p>Esta es <strong>una guía colaborativa y en progreso</strong>. Valoramos, y alentamos, a organizaciones y ciudadanos a plantear ideas, sugerencias, y comentarios que nos ayuden a crear un mejor documento.</p>
 <p>Este documento se complementa con la <strong><a href="../guia_abiertos/">Guía para la publicación de datos en formatos abiertos</a></strong> y la <strong><a href="../guia_interoperables/">Guía para la identificación y uso de entidades interoperables del Gobierno de la Ciudad Autónoma de Buenos Aires</a></strong>.</p>
-<h3 id="que-son-los-metadatos"><a class="toclink" href="#que-son-los-metadatos">¿Qué son los metadatos?</a><a class="headerlink" href="#que-son-los-metadatos" title="Permanent link">&#128279;</a></h3>
+<h3 id="que-son-los-metadatos">¿Qué son los metadatos?</h3>
 <p><strong>Los metadatos son los elementos descriptivos que dan contexto</strong> a un conjunto de datos, y acercan al usuario la información necesaria para entenderlos y usarlos.</p>
 <p>Un <strong>título</strong> y una breve <strong>descripción</strong> son los metadatos básicos que cualquier conjunto de datos a publicar debería tener. Otros elementos que ayudan al lector a hacer un buen uso de los datos, por ejemplo, pueden ser:</p>
 <ul>
@@ -732,25 +730,25 @@
 </ul>
 <p>Una lista curada de campos de metadatos, junto con las instrucciones de cómo deben utilizarse, define un <strong>perfil de metadatos</strong>.</p>
 <p>En esta guía describimos el <strong>perfil de metadatos recomendado para los catálogos del Gobierno de la Ciudad Autónoma de Buenos Aires</strong> y cómo publicarlo.</p>
-<h3 id="como-se-publican-los-metadatos"><a class="toclink" href="#como-se-publican-los-metadatos">¿Cómo se publican los metadatos?</a><a class="headerlink" href="#como-se-publican-los-metadatos" title="Permanent link">&#128279;</a></h3>
+<h3 id="como-se-publican-los-metadatos">¿Cómo se publican los metadatos?</h3>
 <p><strong>La publicación de los metadatos puede ser muy diversa</strong> en detalle, calidad y forma. <strong>Una publicación muy elemental es un documento de texto</strong> que ofrece una descripción del dataset y de cada uno de los recursos que lo componen. Es posible ver un ejemplo textual de los metadatos de un catálogo de datos en el Anexo VI - Ejemplo de metadatos como texto.</p>
 <p>Sin embargo, <strong>las computadoras no pueden leer fácilmente documentos de texto</strong>. La organización sistemática de colecciones de datasets (es decir, la creación de un <strong>catálogo</strong> de datos) exige un nivel de complejidad mayor para facilitar su descubrimiento, indexación, y reutilización por parte de scripts y aplicaciones de todo tipo.</p>
 <p>La potencial reutilización de los conjuntos de datos dependerá de la calidad de sus metadatos. Por lo tanto, la lectura e interpretación de los conjuntos de datos mejora cuando se adoptan y/o desarrollanr estándares y vocabularios controlados.</p>
 <p>Para esto, <strong>los catálogos de datos publican sus metadatos en un formato estructurado (JSON)</strong> respetando un determinado perfil estandarizado. Recomendamos ver un ejemplo en JSON de los metadatos de un catálogo de datos en el Anexo III - Ejemplo de data.json.</p>
 <p>A continuación se detallan las características de los estándares y vocabularios controlados adoptados para catálogos de datos, datasets y distribuciones.</p>
-<h3 id="publico-objetivo-de-esta-guia"><a class="toclink" href="#publico-objetivo-de-esta-guia">Público objetivo de esta guía</a><a class="headerlink" href="#publico-objetivo-de-esta-guia" title="Permanent link">&#128279;</a></h3>
+<h3 id="publico-objetivo-de-esta-guia">Público objetivo de esta guía</h3>
 <p>Esta guía intenta ayudar a aquellas entidades que publican sus datos directamente en el <a href="https://data.buenosaires.gob.ar/">portal de datos abiertos del Gobierno de la Ciudad Autónoma de Buenos Aires</a>  o de alguna forma alternativa. Estas entidades deberán publicar su catálogo en un archivo estructurado (JSON) siguiendo las especificaciones del perfil de metadatos de esta guía.</p>
-<h2 id="perfil-de-metadatos"><a class="toclink" href="#perfil-de-metadatos">Perfil de Metadatos</a><a class="headerlink" href="#perfil-de-metadatos" title="Permanent link">&#128279;</a></h2>
+<h2 id="perfil-de-metadatos">Perfil de Metadatos</h2>
 <p>Cada entidad del Gobierno de la Ciudad Autónoma de Buenos Aires tendrá publicados los metadatos de sus conjuntos de datos en un archivo data.json 
 Este archivo estará construido respetando los lineamientos establecidos en el Perfil de Metadatos tal como se lo describe más adelante en la sección “Campos del perfil”, tal como se puede ver en el ejemplo del Anexo IV - Ejemplo de data.json</p>
-<h3 id="estandar-usado"><a class="toclink" href="#estandar-usado">Estándar usado</a><a class="headerlink" href="#estandar-usado" title="Permanent link">&#128279;</a></h3>
+<h3 id="estandar-usado">Estándar usado</h3>
 <p><strong>El perfil de metadatos recomendado en esta guía es una adaptación realizada por el equipo de Datos Abiertos del Gobierno Nacional utilizando como base el estándar <a href="https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe">DCAT - AP</a></strong>, usado por los países de la Unión Europea. DCAT es un vocabulario controlado definido por la W3C, ampliamente usado a nivel global para la descripción de catálogos de datos.</p>
 <p>Según la W3C: "Mediante la utilización de DCAT para describir datasets en catálogos de datos, quienes publican aumentan la posibilidad de descubrimiento (<em>discoverability</em>) y permiten a aplicaciones informáticas consumir metadatos de manera simple desde múltiples catálogos. Además permite la publicación descentralizada de catálogos y favorece la búsqueda <em>federada</em> de datasets a través de varios sitios."</p>
 <p>El perfil de metadatos propuesto para la Administración Pública Nacional se compone de 3 clases principales (<em>Catalog, Dataset y Distribution</em>) y 2 auxiliares (<em>Field</em> y <em>Theme</em>) que se relacionan según el siguiente esquema:</p>
 <p><img alt="" src="../assets/der_perfil_metadatos.png" /></p>
 <p>A continuación, describimos los metadatos que el <em>data.json</em> debe contener, para cada una de estas clases.</p>
-<h3 id="campos-del-perfil"><a class="toclink" href="#campos-del-perfil">Campos del perfil</a><a class="headerlink" href="#campos-del-perfil" title="Permanent link">&#128279;</a></h3>
-<h4 id="catalogo-catalog"><a class="toclink" href="#catalogo-catalog">Catálogo (<code>catalog</code>)</a><a class="headerlink" href="#catalogo-catalog" title="Permanent link">&#128279;</a></h4>
+<h3 id="campos-del-perfil">Campos del perfil</h3>
+<h4 id="catalogo-catalog">Catálogo (<code>catalog</code>)</h4>
 <p>El portal del Gobierno de la Ciudad Autónoma de Buenos Aires tendrá un catálogo con ciertos campos de perfil detallados más abajo.</p>
 <p>Ejemplos de metadatos de un <strong>catálogo</strong>:</p>
 <ul>
@@ -904,7 +902,7 @@ Este archivo estará construido respetando los lineamientos establecidos en el P
 <p>Dentro de los metadatos necesarios para describir el catálogo en un data.json , hay que poner atención a los dos campos que contienen una lista de objetos: <strong><code>dataset</code></strong> y <strong><code>themeTaxonomy</code></strong>.</p>
 <p>El <strong>primero</strong> contendrá una lista de objetos que describen (cada uno) los metadatos de los distintos datasets que componen el catálogo (en la próxima sección se describen los metadatos que debe contener cada uno de estos objetos).</p>
 <p>El <strong>segundo</strong> también contiene una lista de objetos que, juntos, definen una taxonomía temática para el catálogo. Cada uno de estos objetos contiene los metadatos que describen a cada uno de los temas de esta taxonomía. Más adelante se describen estos metadatos en la sección Tema.</p>
-<h4 id="dataset-dataset"><a class="toclink" href="#dataset-dataset">Dataset (<code>dataset</code>)</a><a class="headerlink" href="#dataset-dataset" title="Permanent link">&#128279;</a></h4>
+<h4 id="dataset-dataset">Dataset (<code>dataset</code>)</h4>
 <p>A continuación, describimos los metadatos que se deben completar para describir un dataset a la hora de su carga o actualización en el catálogo.</p>
 <p>Ejemplos de metadatos de un <strong>dataset</strong>:</p>
 <ul>
@@ -1095,7 +1093,7 @@ Este archivo estará construido respetando los lineamientos establecidos en el P
 </table>
 
 <p>Es importante prestar atención al campo <strong><code>distribution</code></strong> que contiene una lista de objetos que describen los metadatos de cada una de las distribuciones del daset. En la próxima sección abordaremos estos metadatos.</p>
-<h4 id="distribucion-distribution"><a class="toclink" href="#distribucion-distribution">Distribución (<code>distribution</code>)</a><a class="headerlink" href="#distribucion-distribution" title="Permanent link">&#128279;</a></h4>
+<h4 id="distribucion-distribution">Distribución (<code>distribution</code>)</h4>
 <p>Estos son los metadatos que se deben completar al cargar o actualizar una distribución de un dataset en el catálogo para describirla.</p>
 <p>Ejemplos de metadatos de una <strong>distribución</strong>:</p>
 <ul>
@@ -1235,7 +1233,7 @@ Este archivo estará construido respetando los lineamientos establecidos en el P
 </table>
 
 <p>Recomendamos poner atención al campo <strong><code>field</code></strong> que contiene una lista de objetos que describen los metadatos de cada uno de los campos de la distribución (en el <strong>caso de distribuciones tabulares, únicamente</strong>). En la próxima sección abordaremos estos metadatos.</p>
-<h4 id="campo-field"><a class="toclink" href="#campo-field">Campo (<code>field</code>)</a><a class="headerlink" href="#campo-field" title="Permanent link">&#128279;</a></h4>
+<h4 id="campo-field">Campo (<code>field</code>)</h4>
 <p>Recomendamos enfáticamente que las distribuciones tabulares <strong>incluyan metadatos que ayuden a entender la información que contiene cada campo</strong>. Documentarlos adecuadamente facilita enormemente la correcta utilización de los datos por parte de los usuarios.</p>
 <p>En un portal Andino, estos metadatos se completan en el mismo formulario que se utiliza para cargar o actualizar una distribución.</p>
 <p>Ejemplos de metadatos de un <strong>campo</strong>:</p>
@@ -1310,7 +1308,7 @@ Este archivo estará construido respetando los lineamientos establecidos en el P
 
 <p>Los primeros tres metadatos son útiles para <strong>describir las características de cualquier campo de una distribución tabular</strong>.</p>
 <p>Los últimos dos metadatos son opcionales porque sólo cobran sentido al <strong>describir las características de un campo, para casos específicos</strong>. Mientras que no todos los campos de una distribución tabular tienen "<strong>unidad de medida</strong>", la asingación de un <strong>"nomenclador" o "identificador"</strong> suele ser útil para la identificación unívoca de variables en otros sistemas o aplicaciones, pero no en la generalidad de los casos.</p>
-<h4 id="tema-theme"><a class="toclink" href="#tema-theme">Tema (<code>theme</code>)</a><a class="headerlink" href="#tema-theme" title="Permanent link">&#128279;</a></h4>
+<h4 id="tema-theme">Tema (<code>theme</code>)</h4>
 <p>Cada catálogo de datos puede tener su propia taxonomía temática que permite clasificar a los datasets como pertenecientes a una o más categorías temáticas. Recomendamos que los temas tengan algunos metadatos que ayuden a un usuario a entenderlos mejor.</p>
 <p>Estos son metadatos que el responsable de cargar o actualizar la taxonomía temática de un catálogo debe completar para describir los temas de la misma.</p>
 <p>Ejemplos de metadatos de un <strong>tema</strong>:</p>
@@ -1353,9 +1351,9 @@ Este archivo estará construido respetando los lineamientos establecidos en el P
   </tr>
 </table>
 
-<h2 id="glosario"><a class="toclink" href="#glosario">Glosario</a><a class="headerlink" href="#glosario" title="Permanent link">&#128279;</a></h2>
+<h2 id="glosario">Glosario</h2>
 <p>Ver <a href="../glosario/">Glosario</a></p>
-<h2 id="anexo-i-taxonomia-tematica-global-de-la-apn-para-los-datasets-tabla"><a class="toclink" href="#anexo-i-taxonomia-tematica-global-de-la-apn-para-los-datasets-tabla">Anexo I - Taxonomía temática global de la APN para los datasets (tabla)</a><a class="headerlink" href="#anexo-i-taxonomia-tematica-global-de-la-apn-para-los-datasets-tabla" title="Permanent link">&#128279;</a></h2>
+<h2 id="anexo-i-taxonomia-tematica-global-de-la-apn-para-los-datasets-tabla">Anexo I - Taxonomía temática global de la APN para los datasets (tabla)</h2>
 <p>Siguiendo los lineamientos para la Administración Pública Nacional, se utilizará  la <a href="http://publications.europa.eu/mdr/authority/data-theme/index.html">taxonomía temática definida por la Unión Europea</a>. Los campos de metadatos para definir la taxonomía son:</p>
 <ul>
 <li>
@@ -1448,7 +1446,7 @@ Este archivo estará construido respetando los lineamientos establecidos en el P
     </tbody>
 </table>
 
-<h2 id="anexo-ii-pautas-para-la-seleccion-de-etiquetas"><a class="toclink" href="#anexo-ii-pautas-para-la-seleccion-de-etiquetas">Anexo II - Pautas para la selección de etiquetas</a><a class="headerlink" href="#anexo-ii-pautas-para-la-seleccion-de-etiquetas" title="Permanent link">&#128279;</a></h2>
+<h2 id="anexo-ii-pautas-para-la-seleccion-de-etiquetas">Anexo II - Pautas para la selección de etiquetas</h2>
 <p>Elegir buenas etiquetas hace más fácil la búsqueda de datasets para los usuarios. Cuanto más amplia y uniforme sea la lista de etiquetas, mayor será su efectividad.</p>
 <p>Estas son pautas para definir etiquetas aplicables a la propiedad <em>keyword</em> de la clase dataset:</p>
 <ul>
@@ -1492,7 +1490,7 @@ Este archivo estará construido respetando los lineamientos establecidos en el P
 <p>¿Qué área la provee?</p>
 </li>
 </ul>
-<h2 id="anexo-iii-especificacion-de-frecuencias-segun-iso-8601"><a class="toclink" href="#anexo-iii-especificacion-de-frecuencias-segun-iso-8601">Anexo III - Especificación de frecuencias (según ISO-8601)</a><a class="headerlink" href="#anexo-iii-especificacion-de-frecuencias-segun-iso-8601" title="Permanent link">&#128279;</a></h2>
+<h2 id="anexo-iii-especificacion-de-frecuencias-segun-iso-8601">Anexo III - Especificación de frecuencias (según ISO-8601)</h2>
 <table>
   <tr>
     <td>Frecuencia</td>
@@ -1576,244 +1574,242 @@ Este archivo estará construido respetando los lineamientos establecidos en el P
   </tr>
 </table>
 
-<h2 id="anexo-iv-ejemplo-de-datajson"><a class="toclink" href="#anexo-iv-ejemplo-de-datajson">Anexo IV - Ejemplo de data.json</a><a class="headerlink" href="#anexo-iv-ejemplo-de-datajson" title="Permanent link">&#128279;</a></h2>
+<h2 id="anexo-iv-ejemplo-de-datajson">Anexo IV - Ejemplo de data.json</h2>
 <p>Este es un <a href="https://github.com/datosgobar/paquete-apertura-datos/blob/master/examples/data.json">ejemplo de data.json</a>:</p>
-<div class="codehilite"><pre><span></span><span class="p">{</span>
-  <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;Datos Argentina&quot;</span><span class="p">,</span>
-  <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;Portal de Datos Abiertos del Gobierno de la República Argentina&quot;</span><span class="p">,</span>
-  <span class="nt">&quot;publisher&quot;</span><span class="p">:</span> <span class="p">{</span>
-    <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Ministerio de Modernización&quot;</span><span class="p">,</span>
-    <span class="nt">&quot;mbox&quot;</span><span class="p">:</span> <span class="s2">&quot;datos@modernizacion.gob.ar&quot;</span>
-  <span class="p">},</span>
-  <span class="nt">&quot;issued&quot;</span><span class="p">:</span> <span class="s2">&quot;2016-04-14T19:48:05.433640-03:00&quot;</span><span class="p">,</span>
-  <span class="nt">&quot;modified&quot;</span><span class="p">:</span> <span class="s2">&quot;2016-04-19T19:48:05.433640-03:00&quot;</span><span class="p">,</span>
-  <span class="nt">&quot;language&quot;</span><span class="p">:</span> <span class="p">[</span>
-    <span class="s2">&quot;spa&quot;</span>
-  <span class="p">],</span>
-  <span class="nt">&quot;superThemeTaxonomy&quot;</span><span class="p">:</span> <span class="s2">&quot;http://datos.gob.ar/superThemeTaxonomy.json&quot;</span><span class="p">,</span>
-  <span class="nt">&quot;themeTaxonomy&quot;</span><span class="p">:</span> <span class="p">[</span>
-    <span class="p">{</span>
-      <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;convocatorias&quot;</span><span class="p">,</span>
-      <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Convocatorias&quot;</span><span class="p">,</span>
-      <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;Datasets sobre licitaciones en estado de convocatoria.&quot;</span>
-    <span class="p">},</span>
-    <span class="p">{</span>
-      <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;compras&quot;</span><span class="p">,</span>
-      <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Compras&quot;</span><span class="p">,</span>
-      <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;Datasets sobre compras realizadas.&quot;</span>
-    <span class="p">},</span>
-    <span class="p">{</span>
-      <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;contrataciones&quot;</span><span class="p">,</span>
-      <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Contrataciones&quot;</span><span class="p">,</span>
-      <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;Datasets sobre contrataciones.&quot;</span>
-    <span class="p">},</span>
-    <span class="p">{</span>
-      <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;adjudicaciones&quot;</span><span class="p">,</span>
-      <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Adjudicaciones&quot;</span><span class="p">,</span>
-      <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;Datasets sobre licitaciones adjudicadas.&quot;</span>
-    <span class="p">},</span>
-    <span class="p">{</span>
-      <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;normativa&quot;</span><span class="p">,</span>
-      <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Normativa&quot;</span><span class="p">,</span>
-      <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;Datasets sobre normativa para compras y contrataciones.&quot;</span>
-    <span class="p">},</span>
-    <span class="p">{</span>
-      <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;proveedores&quot;</span><span class="p">,</span>
-      <span class="nt">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Proveedores&quot;</span><span class="p">,</span>
-      <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;Datasets sobre proveedores del Estado.&quot;</span>
-    <span class="p">}</span>
-  <span class="p">],</span>
-  <span class="nt">&quot;license&quot;</span><span class="p">:</span> <span class="s2">&quot;Open Data Commons Open Database License 1.0&quot;</span><span class="p">,</span>
-  <span class="nt">&quot;homepage&quot;</span><span class="p">:</span> <span class="s2">&quot;http://datos.gob.ar&quot;</span><span class="p">,</span>
-  <span class="nt">&quot;rights&quot;</span><span class="p">:</span> <span class="s2">&quot;Derechos especificados en la licencia.&quot;</span><span class="p">,</span>
-  <span class="nt">&quot;spatial&quot;</span><span class="p">:</span> <span class="s2">&quot;ARG&quot;</span><span class="p">,</span>
-  <span class="nt">&quot;dataset&quot;</span><span class="p">:</span> <span class="p">[</span>
-    <span class="p">{</span>
-      <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;Sistema de contrataciones electrónicas&quot;</span><span class="p">,</span>
-      <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;Datos correspondientes al Sistema de Contrataciones Electrónicas (Argentina Compra)&quot;</span><span class="p">,</span>
-      <span class="nt">&quot;publisher&quot;</span><span class="p">:</span> <span class="p">{</span>
-        <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Ministerio de Modernización. Secretaría de Modernización Administrativa. Oficina Nacional de Contrataciones&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;mbox&quot;</span><span class="p">:</span> <span class="s2">&quot;onc@modernizacion.gob.ar&quot;</span>
-      <span class="p">},</span>
-      <span class="nt">&quot;contactPoint&quot;</span><span class="p">:</span> <span class="p">{</span>
-        <span class="nt">&quot;fn&quot;</span><span class="p">:</span> <span class="s2">&quot;Ministerio de Modernización. Secretaría de Modernización Administrativa. Oficina Nacional de Contrataciones. Dirección de Compras Electrónicas.&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;hasEmail&quot;</span><span class="p">:</span> <span class="s2">&quot;onc-compraselectronicas@modernizacion.gob.ar&quot;</span>
-      <span class="p">},</span>
-      <span class="nt">&quot;superTheme&quot;</span><span class="p">:</span> <span class="p">[</span>
-        <span class="s2">&quot;ECON&quot;</span>
-      <span class="p">],</span>
-      <span class="nt">&quot;theme&quot;</span><span class="p">:</span> <span class="p">[</span>
-        <span class="s2">&quot;contrataciones&quot;</span><span class="p">,</span>
-        <span class="s2">&quot;compras&quot;</span><span class="p">,</span>
-        <span class="s2">&quot;convocatorias&quot;</span>
-      <span class="p">],</span>
-      <span class="nt">&quot;keyword&quot;</span><span class="p">:</span> <span class="p">[</span>
-        <span class="s2">&quot;bienes&quot;</span><span class="p">,</span>
-        <span class="s2">&quot;compras&quot;</span><span class="p">,</span>
-        <span class="s2">&quot;contrataciones&quot;</span>
-      <span class="p">],</span>
-      <span class="nt">&quot;accrualPeriodicity&quot;</span><span class="p">:</span> <span class="s2">&quot;R/P1Y&quot;</span><span class="p">,</span>
-      <span class="nt">&quot;issued&quot;</span><span class="p">:</span> <span class="s2">&quot;2016-04-14T19:48:05.433640-03:00&quot;</span><span class="p">,</span>
-      <span class="nt">&quot;modified&quot;</span><span class="p">:</span> <span class="s2">&quot;2016-04-19T19:48:05.433640-03:00&quot;</span><span class="p">,</span>
-      <span class="nt">&quot;identifier&quot;</span><span class="p">:</span> <span class="s2">&quot;99db6631-d1c9-470b-a73e-c62daa32c420&quot;</span><span class="p">,</span>
-      <span class="nt">&quot;language&quot;</span><span class="p">:</span> <span class="p">[</span>
-        <span class="s2">&quot;spa&quot;</span>
-      <span class="p">],</span>
-      <span class="nt">&quot;spatial&quot;</span><span class="p">:</span> <span class="s2">&quot;ARG&quot;</span><span class="p">,</span>
-      <span class="nt">&quot;temporal&quot;</span><span class="p">:</span> <span class="s2">&quot;2015-01-01/2015-12-31&quot;</span><span class="p">,</span>
-      <span class="nt">&quot;landingPage&quot;</span><span class="p">:</span> <span class="s2">&quot;http://datos.gob.ar/dataset/sistema-de-contrataciones-electronicas-argentina-compra&quot;</span><span class="p">,</span>
-      <span class="nt">&quot;license&quot;</span><span class="p">:</span> <span class="s2">&quot;Open Data Commons Open Database License 1.0&quot;</span><span class="p">,</span>
-      <span class="nt">&quot;distribution&quot;</span><span class="p">:</span> <span class="p">[</span>
-        <span class="p">{</span>
-          <span class="nt">&quot;accessURL&quot;</span><span class="p">:</span> <span class="s2">&quot;http://datos.gob.ar/dataset/sistema-de-contrataciones-electronicas-argentina-compra/archivo/fa3603b3-0af7-43cc-9da9-90a512217d8a&quot;</span><span class="p">,</span>
-          <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;Listado de las convocatorias abiertas durante el año 2015 en el sistema de contrataciones electrónicas&quot;</span><span class="p">,</span>
-          <span class="nt">&quot;format&quot;</span><span class="p">:</span> <span class="s2">&quot;CSV&quot;</span><span class="p">,</span>
-          <span class="nt">&quot;mediaType&quot;</span><span class="p">:</span> <span class="s2">&quot;text/csv&quot;</span><span class="p">,</span>
-          <span class="nt">&quot;downloadURL&quot;</span><span class="p">:</span> <span class="s2">&quot;http://186.33.211.253/dataset/99db6631-d1c9-470b-a73e-c62daa32c420/resource/4b7447cb-31ff-4352-96c3-589d212e1cc9/download/convocatorias-abiertas-anio-2015.csv&quot;</span><span class="p">,</span>
-          <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;Convocatorias abiertas durante el año 2015&quot;</span><span class="p">,</span>
-          <span class="nt">&quot;license&quot;</span><span class="p">:</span> <span class="s2">&quot;Open Data Commons Open Database License 1.0&quot;</span><span class="p">,</span>
-          <span class="nt">&quot;byteSize&quot;</span><span class="p">:</span> <span class="s2">&quot;5120&quot;</span><span class="p">,</span>
-          <span class="nt">&quot;issued&quot;</span><span class="p">:</span> <span class="s2">&quot;2016-04-14T19:48:05.433640-03:00&quot;</span><span class="p">,</span>
-          <span class="nt">&quot;modified&quot;</span><span class="p">:</span> <span class="s2">&quot;2016-04-19T19:48:05.433640-03:00&quot;</span><span class="p">,</span>
-          <span class="nt">&quot;rights&quot;</span><span class="p">:</span> <span class="s2">&quot;Derechos especificados en la licencia.&quot;</span><span class="p">,</span>
-          <span class="nt">&quot;field&quot;</span><span class="p">:</span> <span class="p">[</span>
-            <span class="p">{</span>
-              <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;procedimiento_id&quot;</span><span class="p">,</span>
-              <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;integer&quot;</span><span class="p">,</span>
-              <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;Identificador único del procedimiento de contratación&quot;</span>
-            <span class="p">},</span>
-            <span class="p">{</span>
-              <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;organismo_unidad_operativa_contrataciones_id&quot;</span><span class="p">,</span>
-              <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;integer&quot;</span><span class="p">,</span>
-              <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;Identificador único del organismo que realiza la convocatoria. Organismo de máximo nivel jerárquico al que pertenece la unidad operativa de contrataciones.&quot;</span>
-            <span class="p">},</span>
-            <span class="p">{</span>
-              <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;unidad_operativa_contrataciones_id&quot;</span><span class="p">,</span>
-              <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;integer&quot;</span><span class="p">,</span>
-              <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;Identificador único de la unidad operativa de contrataciones&quot;</span>
-            <span class="p">},</span>
-            <span class="p">{</span>
-              <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;organismo_unidad_operativa_contrataciones_desc&quot;</span><span class="p">,</span>
-              <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;string&quot;</span><span class="p">,</span>
-              <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;Organismo que realiza la convocatoria. Organismo de máximo nivel jerárquico al que pertenece la unidad operativa de contrataciones.&quot;</span>
-            <span class="p">},</span>
-            <span class="p">{</span>
-              <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;unidad_operativa_contrataciones_desc&quot;</span><span class="p">,</span>
-              <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;string&quot;</span><span class="p">,</span>
-              <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;Unidad operativa de contrataciones.&quot;</span>
-            <span class="p">},</span>
-            <span class="p">{</span>
-              <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;tipo_procedimiento_contratacion&quot;</span><span class="p">,</span>
-              <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;string&quot;</span><span class="p">,</span>
-              <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;Tipo de procedimiento al que se adecua la contratación.&quot;</span>
-            <span class="p">},</span>
-            <span class="p">{</span>
-              <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;ejercicio_procedimiento_anio&quot;</span><span class="p">,</span>
-              <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;date&quot;</span><span class="p">,</span>
-              <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;Año en el que se inició el proceso de la convocatoria.&quot;</span>
-            <span class="p">},</span>
-            <span class="p">{</span>
-              <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;fecha_publicacion_convocatoria&quot;</span><span class="p">,</span>
-              <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;date&quot;</span><span class="p">,</span>
-              <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;Fecha de publicación de la convocatoria en formato AAAA-MM-DD, ISO 8601.&quot;</span>
-            <span class="p">},</span>
-            <span class="p">{</span>
-              <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;modalidad_convocatoria&quot;</span><span class="p">,</span>
-              <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;string&quot;</span><span class="p">,</span>
-              <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;Modalidad bajo la cual se realiza la convocatoria.&quot;</span>
-            <span class="p">},</span>
-            <span class="p">{</span>
-              <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;clase_convocatoria&quot;</span><span class="p">,</span>
-              <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;string&quot;</span><span class="p">,</span>
-              <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;Clase de la convocatoria.&quot;</span>
-            <span class="p">},</span>
-            <span class="p">{</span>
-              <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;objeto_convocatoria&quot;</span><span class="p">,</span>
-              <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;string&quot;</span><span class="p">,</span>
-              <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;Objeto/objetivo de la convocatoria&quot;</span>
-            <span class="p">}</span>
-          <span class="p">]</span>
-        <span class="p">}</span>
-      <span class="p">]</span>
-    <span class="p">}</span>
-  <span class="p">]</span>
-<span class="p">}</span>
-</pre></div>
+<pre><code class="json">{
+  &quot;title&quot;: &quot;Datos Argentina&quot;,
+  &quot;description&quot;: &quot;Portal de Datos Abiertos del Gobierno de la República Argentina&quot;,
+  &quot;publisher&quot;: {
+    &quot;name&quot;: &quot;Ministerio de Modernización&quot;,
+    &quot;mbox&quot;: &quot;datos@modernizacion.gob.ar&quot;
+  },
+  &quot;issued&quot;: &quot;2016-04-14T19:48:05.433640-03:00&quot;,
+  &quot;modified&quot;: &quot;2016-04-19T19:48:05.433640-03:00&quot;,
+  &quot;language&quot;: [
+    &quot;spa&quot;
+  ],
+  &quot;superThemeTaxonomy&quot;: &quot;http://datos.gob.ar/superThemeTaxonomy.json&quot;,
+  &quot;themeTaxonomy&quot;: [
+    {
+      &quot;id&quot;: &quot;convocatorias&quot;,
+      &quot;label&quot;: &quot;Convocatorias&quot;,
+      &quot;description&quot;: &quot;Datasets sobre licitaciones en estado de convocatoria.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;compras&quot;,
+      &quot;label&quot;: &quot;Compras&quot;,
+      &quot;description&quot;: &quot;Datasets sobre compras realizadas.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;contrataciones&quot;,
+      &quot;label&quot;: &quot;Contrataciones&quot;,
+      &quot;description&quot;: &quot;Datasets sobre contrataciones.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;adjudicaciones&quot;,
+      &quot;label&quot;: &quot;Adjudicaciones&quot;,
+      &quot;description&quot;: &quot;Datasets sobre licitaciones adjudicadas.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;normativa&quot;,
+      &quot;label&quot;: &quot;Normativa&quot;,
+      &quot;description&quot;: &quot;Datasets sobre normativa para compras y contrataciones.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;proveedores&quot;,
+      &quot;label&quot;: &quot;Proveedores&quot;,
+      &quot;description&quot;: &quot;Datasets sobre proveedores del Estado.&quot;
+    }
+  ],
+  &quot;license&quot;: &quot;Open Data Commons Open Database License 1.0&quot;,
+  &quot;homepage&quot;: &quot;http://datos.gob.ar&quot;,
+  &quot;rights&quot;: &quot;Derechos especificados en la licencia.&quot;,
+  &quot;spatial&quot;: &quot;ARG&quot;,
+  &quot;dataset&quot;: [
+    {
+      &quot;title&quot;: &quot;Sistema de contrataciones electrónicas&quot;,
+      &quot;description&quot;: &quot;Datos correspondientes al Sistema de Contrataciones Electrónicas (Argentina Compra)&quot;,
+      &quot;publisher&quot;: {
+        &quot;name&quot;: &quot;Ministerio de Modernización. Secretaría de Modernización Administrativa. Oficina Nacional de Contrataciones&quot;,
+        &quot;mbox&quot;: &quot;onc@modernizacion.gob.ar&quot;
+      },
+      &quot;contactPoint&quot;: {
+        &quot;fn&quot;: &quot;Ministerio de Modernización. Secretaría de Modernización Administrativa. Oficina Nacional de Contrataciones. Dirección de Compras Electrónicas.&quot;,
+        &quot;hasEmail&quot;: &quot;onc-compraselectronicas@modernizacion.gob.ar&quot;
+      },
+      &quot;superTheme&quot;: [
+        &quot;ECON&quot;
+      ],
+      &quot;theme&quot;: [
+        &quot;contrataciones&quot;,
+        &quot;compras&quot;,
+        &quot;convocatorias&quot;
+      ],
+      &quot;keyword&quot;: [
+        &quot;bienes&quot;,
+        &quot;compras&quot;,
+        &quot;contrataciones&quot;
+      ],
+      &quot;accrualPeriodicity&quot;: &quot;R/P1Y&quot;,
+      &quot;issued&quot;: &quot;2016-04-14T19:48:05.433640-03:00&quot;,
+      &quot;modified&quot;: &quot;2016-04-19T19:48:05.433640-03:00&quot;,
+      &quot;identifier&quot;: &quot;99db6631-d1c9-470b-a73e-c62daa32c420&quot;,
+      &quot;language&quot;: [
+        &quot;spa&quot;
+      ],
+      &quot;spatial&quot;: &quot;ARG&quot;,
+      &quot;temporal&quot;: &quot;2015-01-01/2015-12-31&quot;,
+      &quot;landingPage&quot;: &quot;http://datos.gob.ar/dataset/sistema-de-contrataciones-electronicas-argentina-compra&quot;,
+      &quot;license&quot;: &quot;Open Data Commons Open Database License 1.0&quot;,
+      &quot;distribution&quot;: [
+        {
+          &quot;accessURL&quot;: &quot;http://datos.gob.ar/dataset/sistema-de-contrataciones-electronicas-argentina-compra/archivo/fa3603b3-0af7-43cc-9da9-90a512217d8a&quot;,
+          &quot;description&quot;: &quot;Listado de las convocatorias abiertas durante el año 2015 en el sistema de contrataciones electrónicas&quot;,
+          &quot;format&quot;: &quot;CSV&quot;,
+          &quot;mediaType&quot;: &quot;text/csv&quot;,
+          &quot;downloadURL&quot;: &quot;http://186.33.211.253/dataset/99db6631-d1c9-470b-a73e-c62daa32c420/resource/4b7447cb-31ff-4352-96c3-589d212e1cc9/download/convocatorias-abiertas-anio-2015.csv&quot;,
+          &quot;title&quot;: &quot;Convocatorias abiertas durante el año 2015&quot;,
+          &quot;license&quot;: &quot;Open Data Commons Open Database License 1.0&quot;,
+          &quot;byteSize&quot;: &quot;5120&quot;,
+          &quot;issued&quot;: &quot;2016-04-14T19:48:05.433640-03:00&quot;,
+          &quot;modified&quot;: &quot;2016-04-19T19:48:05.433640-03:00&quot;,
+          &quot;rights&quot;: &quot;Derechos especificados en la licencia.&quot;,
+          &quot;field&quot;: [
+            {
+              &quot;title&quot;: &quot;procedimiento_id&quot;,
+              &quot;type&quot;: &quot;integer&quot;,
+              &quot;description&quot;: &quot;Identificador único del procedimiento de contratación&quot;
+            },
+            {
+              &quot;title&quot;: &quot;organismo_unidad_operativa_contrataciones_id&quot;,
+              &quot;type&quot;: &quot;integer&quot;,
+              &quot;description&quot;: &quot;Identificador único del organismo que realiza la convocatoria. Organismo de máximo nivel jerárquico al que pertenece la unidad operativa de contrataciones.&quot;
+            },
+            {
+              &quot;title&quot;: &quot;unidad_operativa_contrataciones_id&quot;,
+              &quot;type&quot;: &quot;integer&quot;,
+              &quot;description&quot;: &quot;Identificador único de la unidad operativa de contrataciones&quot;
+            },
+            {
+              &quot;title&quot;: &quot;organismo_unidad_operativa_contrataciones_desc&quot;,
+              &quot;type&quot;: &quot;string&quot;,
+              &quot;description&quot;: &quot;Organismo que realiza la convocatoria. Organismo de máximo nivel jerárquico al que pertenece la unidad operativa de contrataciones.&quot;
+            },
+            {
+              &quot;title&quot;: &quot;unidad_operativa_contrataciones_desc&quot;,
+              &quot;type&quot;: &quot;string&quot;,
+              &quot;description&quot;: &quot;Unidad operativa de contrataciones.&quot;
+            },
+            {
+              &quot;title&quot;: &quot;tipo_procedimiento_contratacion&quot;,
+              &quot;type&quot;: &quot;string&quot;,
+              &quot;description&quot;: &quot;Tipo de procedimiento al que se adecua la contratación.&quot;
+            },
+            {
+              &quot;title&quot;: &quot;ejercicio_procedimiento_anio&quot;,
+              &quot;type&quot;: &quot;date&quot;,
+              &quot;description&quot;: &quot;Año en el que se inició el proceso de la convocatoria.&quot;
+            },
+            {
+              &quot;title&quot;: &quot;fecha_publicacion_convocatoria&quot;,
+              &quot;type&quot;: &quot;date&quot;,
+              &quot;description&quot;: &quot;Fecha de publicación de la convocatoria en formato AAAA-MM-DD, ISO 8601.&quot;
+            },
+            {
+              &quot;title&quot;: &quot;modalidad_convocatoria&quot;,
+              &quot;type&quot;: &quot;string&quot;,
+              &quot;description&quot;: &quot;Modalidad bajo la cual se realiza la convocatoria.&quot;
+            },
+            {
+              &quot;title&quot;: &quot;clase_convocatoria&quot;,
+              &quot;type&quot;: &quot;string&quot;,
+              &quot;description&quot;: &quot;Clase de la convocatoria.&quot;
+            },
+            {
+              &quot;title&quot;: &quot;objeto_convocatoria&quot;,
+              &quot;type&quot;: &quot;string&quot;,
+              &quot;description&quot;: &quot;Objeto/objetivo de la convocatoria&quot;
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+</code></pre>
 
-
-<h2 id="anexo-v-taxonomia-tematica-global-de-la-apn-para-los-datasets-json"><a class="toclink" href="#anexo-v-taxonomia-tematica-global-de-la-apn-para-los-datasets-json">Anexo V - Taxonomía temática global de la APN para los datasets (JSON)</a><a class="headerlink" href="#anexo-v-taxonomia-tematica-global-de-la-apn-para-los-datasets-json" title="Permanent link">&#128279;</a></h2>
+<h2 id="anexo-v-taxonomia-tematica-global-de-la-apn-para-los-datasets-json">Anexo V - Taxonomía temática global de la APN para los datasets (JSON)</h2>
 <p>Esta es la <a href="https://raw.githubusercontent.com/datosgobar/paquete-apertura-datos/master/standards/metadata/superThemeTaxonomy.json">taxonomía temática global</a>:</p>
-<div class="codehilite"><pre><span></span><span class="p">[</span>
-    <span class="p">{</span>
-        <span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="s2">&quot;AGRI&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;label&quot;</span><span class="p">:</span><span class="s2">&quot;Agroganadería, pesca y forestación&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="s2">&quot;Datos referidos a agroganadería, pesca y forestación. Por ejemplo: &#39;Lechería: precio pagado al productor&#39; o &#39;Superficie forestada&#39;.&quot;</span>
-    <span class="p">},</span>
-    <span class="p">{</span>
-        <span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="s2">&quot;ECON&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;label&quot;</span><span class="p">:</span><span class="s2">&quot;Economía y finanzas&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="s2">&quot;Datos referidos a economía y finanzas. Por ejemplo: &#39;Deuda pública&#39;.&quot;</span>
-    <span class="p">},</span>
-    <span class="p">{</span>
-        <span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="s2">&quot;EDUC&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;label&quot;</span><span class="p">:</span><span class="s2">&quot;Educación, cultura y deportes&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="s2">&quot;Datos referidos a educación, cultura y deportes. Por ejemplo: &#39;Registro de Establecimientos Educativos&#39;.&quot;</span>
-    <span class="p">},</span>
-    <span class="p">{</span>
-        <span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="s2">&quot;ENER&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;label&quot;</span><span class="p">:</span><span class="s2">&quot;Energía&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="s2">&quot;Datos referidos a energía. Por ejemplo: &#39;Productos mineros exportados&#39; o &#39;Precios del GNC&#39;.&quot;</span>
-    <span class="p">},</span>
-    <span class="p">{</span>
-        <span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="s2">&quot;ENVI&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;label&quot;</span><span class="p">:</span><span class="s2">&quot;Medio ambiente&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="s2">&quot;Datos referidos a medio ambiente. Por ejemplo: &#39;Operadores de residuos peligrosos&#39;.&quot;</span>
-    <span class="p">},</span>
-    <span class="p">{</span>
-        <span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="s2">&quot;GOVE&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;label&quot;</span><span class="p">:</span><span class="s2">&quot;Gobierno y sector público&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="s2">&quot;Datos referidos a gobierno y sector público. Por ejemplo: &#39;Inmuebles del estado Nacional&#39;.&quot;</span>
-    <span class="p">},</span>
-    <span class="p">{</span>
-        <span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="s2">&quot;HEAL&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;label&quot;</span><span class="p">:</span><span class="s2">&quot;Salud&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="s2">&quot;Datos referidos a salud. Por ejemplo: &#39;Estadísticas nacionales de VIH/SIDA&#39;.&quot;</span>
-    <span class="p">},</span>
-    <span class="p">{</span>
-        <span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="s2">&quot;INTR&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;label&quot;</span><span class="p">:</span><span class="s2">&quot;Asuntos internacionales&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="s2">&quot;Datos referidos a asuntos internacionales. Por ejemplo: &#39;Representaciones argentinas en el exterior&#39;.&quot;</span>
-    <span class="p">},</span>
-    <span class="p">{</span>
-        <span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="s2">&quot;JUST&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;label&quot;</span><span class="p">:</span><span class="s2">&quot;Justicia, seguridad y legales&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="s2">&quot;Datos referidos a justicia, seguridad y legales. Por ejemplo: &#39;Censo penitenciario&#39;.&quot;</span>
-    <span class="p">},</span>
-    <span class="p">{</span>
-        <span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="s2">&quot;REGI&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;label&quot;</span><span class="p">:</span><span class="s2">&quot;Regiones y ciudades&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="s2">&quot;Datos referidos a regiones y ciudades. Por ejemplo: &#39;Departamentos de la provincia de Río Negro&#39;.&quot;</span>
-    <span class="p">},</span>
-    <span class="p">{</span>
-        <span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="s2">&quot;SOCI&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;label&quot;</span><span class="p">:</span><span class="s2">&quot;Población y sociedad&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="s2">&quot;Datos referidos a población y sociedad. Por ejemplo: &#39;Turistas residentes que viajan por Argentina&#39;.&quot;</span>
-    <span class="p">},</span>
-    <span class="p">{</span>
-        <span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="s2">&quot;TECH&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;label&quot;</span><span class="p">:</span><span class="s2">&quot;Ciencia y tecnología&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="s2">&quot;Datos referidos a ciencia y tecnología. Por ejemplo: &#39;Recursos humanos en ciencia y tecnología&#39;.&quot;</span>
-    <span class="p">},</span>
-    <span class="p">{</span>
-        <span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="s2">&quot;TRAN&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;label&quot;</span><span class="p">:</span><span class="s2">&quot;Transporte&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="s2">&quot;Datos referidos a transporte. Por ejemplo: &#39;Estadísticas viales&#39;.&quot;</span>
-    <span class="p">}</span>
-<span class="p">]</span>
-</pre></div>
+<pre><code class="json">[
+    {
+        &quot;id&quot;:&quot;AGRI&quot;,
+        &quot;label&quot;:&quot;Agroganadería, pesca y forestación&quot;,
+        &quot;description&quot;:&quot;Datos referidos a agroganadería, pesca y forestación. Por ejemplo: 'Lechería: precio pagado al productor' o 'Superficie forestada'.&quot;
+    },
+    {
+        &quot;id&quot;:&quot;ECON&quot;,
+        &quot;label&quot;:&quot;Economía y finanzas&quot;,
+        &quot;description&quot;:&quot;Datos referidos a economía y finanzas. Por ejemplo: 'Deuda pública'.&quot;
+    },
+    {
+        &quot;id&quot;:&quot;EDUC&quot;,
+        &quot;label&quot;:&quot;Educación, cultura y deportes&quot;,
+        &quot;description&quot;:&quot;Datos referidos a educación, cultura y deportes. Por ejemplo: 'Registro de Establecimientos Educativos'.&quot;
+    },
+    {
+        &quot;id&quot;:&quot;ENER&quot;,
+        &quot;label&quot;:&quot;Energía&quot;,
+        &quot;description&quot;:&quot;Datos referidos a energía. Por ejemplo: 'Productos mineros exportados' o 'Precios del GNC'.&quot;
+    },
+    {
+        &quot;id&quot;:&quot;ENVI&quot;,
+        &quot;label&quot;:&quot;Medio ambiente&quot;,
+        &quot;description&quot;:&quot;Datos referidos a medio ambiente. Por ejemplo: 'Operadores de residuos peligrosos'.&quot;
+    },
+    {
+        &quot;id&quot;:&quot;GOVE&quot;,
+        &quot;label&quot;:&quot;Gobierno y sector público&quot;,
+        &quot;description&quot;:&quot;Datos referidos a gobierno y sector público. Por ejemplo: 'Inmuebles del estado Nacional'.&quot;
+    },
+    {
+        &quot;id&quot;:&quot;HEAL&quot;,
+        &quot;label&quot;:&quot;Salud&quot;,
+        &quot;description&quot;:&quot;Datos referidos a salud. Por ejemplo: 'Estadísticas nacionales de VIH/SIDA'.&quot;
+    },
+    {
+        &quot;id&quot;:&quot;INTR&quot;,
+        &quot;label&quot;:&quot;Asuntos internacionales&quot;,
+        &quot;description&quot;:&quot;Datos referidos a asuntos internacionales. Por ejemplo: 'Representaciones argentinas en el exterior'.&quot;
+    },
+    {
+        &quot;id&quot;:&quot;JUST&quot;,
+        &quot;label&quot;:&quot;Justicia, seguridad y legales&quot;,
+        &quot;description&quot;:&quot;Datos referidos a justicia, seguridad y legales. Por ejemplo: 'Censo penitenciario'.&quot;
+    },
+    {
+        &quot;id&quot;:&quot;REGI&quot;,
+        &quot;label&quot;:&quot;Regiones y ciudades&quot;,
+        &quot;description&quot;:&quot;Datos referidos a regiones y ciudades. Por ejemplo: 'Departamentos de la provincia de Río Negro'.&quot;
+    },
+    {
+        &quot;id&quot;:&quot;SOCI&quot;,
+        &quot;label&quot;:&quot;Población y sociedad&quot;,
+        &quot;description&quot;:&quot;Datos referidos a población y sociedad. Por ejemplo: 'Turistas residentes que viajan por Argentina'.&quot;
+    },
+    {
+        &quot;id&quot;:&quot;TECH&quot;,
+        &quot;label&quot;:&quot;Ciencia y tecnología&quot;,
+        &quot;description&quot;:&quot;Datos referidos a ciencia y tecnología. Por ejemplo: 'Recursos humanos en ciencia y tecnología'.&quot;
+    },
+    {
+        &quot;id&quot;:&quot;TRAN&quot;,
+        &quot;label&quot;:&quot;Transporte&quot;,
+        &quot;description&quot;:&quot;Datos referidos a transporte. Por ejemplo: 'Estadísticas viales'.&quot;
+    }
+]
+</code></pre>
 
-
-<h2 id="anexo-vi-ejemplo-de-metadatos-como-texto"><a class="toclink" href="#anexo-vi-ejemplo-de-metadatos-como-texto">Anexo VI - Ejemplo de metadatos como texto</a><a class="headerlink" href="#anexo-vi-ejemplo-de-metadatos-como-texto" title="Permanent link">&#128279;</a></h2>
+<h2 id="anexo-vi-ejemplo-de-metadatos-como-texto">Anexo VI - Ejemplo de metadatos como texto</h2>
 <p>Este es un <a href="https://github.com/datosgobar/paquete-apertura-datos/blob/master/examples/data.md">ejemplo en markdown</a>:</p>
 <p><strong>Catálogo: Buenos Aires Data</strong></p>
 <p>Portal de Datos Abiertos del Gobierno de la Ciudad Autónoma de Buenos Aires</p>
