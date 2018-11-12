@@ -30,13 +30,16 @@
   - [Texto](#texto)
     - [Entidades](#entidades)
     - [Nombres propios](#nombres-propios)
+    - [Instituciones del Gobierno de la Ciudad de Buenos Aires](#instituciones-del-gobierno-de-la-ciudad-de-buenos-aires)
     - [Siglas](#siglas)
   - [Número](#numero)
     - [Moneda](#moneda)
     - [Números telefónicos](#numeros-telefonicos)
     - [Coordenadas](#coordenadas)
   - [Tiempo](#tiempo)
+    - [Fecha](#fecha)
     - [Rangos horarios](#rangos-horarios)
+  -  [Otros estándares sectoriales](#otros-estandares-sectoriales)
   - [Booleano](#booleano)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->

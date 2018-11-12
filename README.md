@@ -11,7 +11,7 @@ Repositorio de las guías de datos del Gobierno de la Ciudad de Buenos Aires.
 
 ### Guías de buenas prácticas
 
-Las **[guías de buenas prácticas](http://paquete-apertura-datos.readthedocs.io/es/stable)** son un trabajo colaborativo y en progreso. Valoramos e invitamos a todas las organizaciones y ciudadanos a plantear ideas, sugerencias y comentarios que contribuyan a crear mejores documentos.
+Las **[guías de buenas prácticas](https://datosgcba.github.io/guia-datos)** son un trabajo colaborativo y en progreso. Valoramos e invitamos a todas las organizaciones y ciudadanos a plantear ideas, sugerencias y comentarios que contribuyan a crear mejores documentos.
 
 Podés hacer esto [cargando un nuevo _issue_](https://github.com/datosgobar/paquete-apertura-datos/issues/new), o [respondiendo a un _issue_ ya existente](https://github.com/datosgobar/paquete-apertura-datos/issues).
 
