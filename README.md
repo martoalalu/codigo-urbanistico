@@ -13,8 +13,6 @@ Repositorio de las guías de datos del Gobierno de la Ciudad de Buenos Aires.
 
 Las **[guías de buenas prácticas](https://datosgcba.github.io/guia-datos)** son un trabajo colaborativo y en progreso. Valoramos e invitamos a todas las organizaciones y ciudadanos a plantear ideas, sugerencias y comentarios que contribuyan a crear mejores documentos.
 
-Podés hacer esto [cargando un nuevo _issue_](https://github.com/datosgobar/paquete-apertura-datos/issues/new), o [respondiendo a un _issue_ ya existente](https://github.com/datosgobar/paquete-apertura-datos/issues).
-
 * **[Guía para la publicación de datos en formatos abiertos](https://datosgcba.github.io/guia-datos/guia_abiertos)**
 * **[Guia para la identificación y uso de entidades interoperables](https://datosgcba.github.io/guia-datos/guia_interoperables/)**
 * **[Guía para el uso y la publicación de metadatos](https://datosgcba.github.io/guia-datos/guia_metadatos/)**
@@ -28,8 +26,6 @@ Podés hacer esto [cargando un nuevo _issue_](https://github.com/datosgobar/paqu
 
 ## Contacto
 
-Te invitamos a [crearnos un issue](https://github.com/datosgcba/guia-datos/issues/new) en caso de que encuentres algún bug o tengas feedback de alguna parte de `guia-datos`.
-
-Para todo lo demás, podés mandarnos tu comentario o consulta a [gobiernoabierto@buenosaires.gob.ar](mailto:gobiernoabierto@buenosaires.gob.ar).
+Podés mandarnos tu comentario o consulta a [gobiernoabierto@buenosaires.gob.ar](mailto:gobiernoabierto@buenosaires.gob.ar).
 
 

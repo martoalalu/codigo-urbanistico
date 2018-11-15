@@ -16,7 +16,8 @@
     - [Divisiones o unidades territoriales internas](#divisiones-o-unidades-territoriales-internas)
       - [A. Comunas -> Barrios -> Fracciones Censales -> Radios Censales (CBFR)](#a-comunas-barrios---fracciones-censales---radios-censales-cbfr)
       - [B. Villas -> Unidades Territoriales de Inclusión Urbana (VUTAI)](#b-villas-unidades-territoriales-de-inclusion-urbana-pm)
-      - [C. ¿Cómo nombrar los campos?](#c-como-nombrar-los-campos)
+      - [C. Otros nomencladores](#c-otros-nomencladores)
+      - [D. ¿Cómo nombrar los campos?](#d-como-nombrar-los-campos)
     - [Direcciones y lugares](#direcciones-y-lugares)
     - [**Códigos postales**](#codigos-postales)
   - [**Personas físicas**](#personas-fisicas)
@@ -165,6 +166,8 @@ En el caso de las divisiones o unidades territoriales internas, recomendamos usa
 * Fracciones Censales
 * Radios Censales
 
+Cabe aclarar que las fracciones censales, la cobertura geográfica, los nomencladores y codificación de INDEC son referencias dinámicas, ya que pueden llegar a modificarse en los censos. Las incluidas en esta guía refieren al Censo Nacional de Población, Hogares y Viviendas 2010.
+
 ¿Cómo se relacionan estas entidades entre sí? Veremos que estas unidades pueden ordenarse jerárquicamente de modo tal que algunas contienen a las otras, aunque no en todos los casos. A continuación, explicamos los conjuntos de entidades que conforman una jerarquía internamente consistente.
 
 ##### A. Comunas -> Barrios -> Fracciones Censales -> Radios Censales (CBFR)
@@ -175,7 +178,7 @@ La Ciudad de Buenos Aires constituye una **excepción** a la regla PDL (partido-
 
 La generación de los límites de comunas se basó en la [Ordenanza Nº 23.698 (11 de junio de 1968)](https://boletinoficial.buenosaires.gob.ar/normativaba/norma/84707) completada por la [Ordenanza Nº 26607 de 1972](https://boletinoficial.buenosaires.gob.ar/normativaba/norma/53431).
 
-En Septiembre 2006 la modificación en base a la Ley Nº 1.777 y sus modificatorias que redefine los límites de los Barrios de la Ciudad y deroga la Ordenanza 26.607 de 1972. En Noviembre 2006 se delimitaron los nuevos límites de Barrios según Ley Nº 1.777 generados por la Dirección General Electoral. En Junio 2007 ocurrió la última modificación a la Ley Nº 1777. Fue sancionada como Ley Nº 2329 del 10/5/07, promulgada por Decreto Nº 779/07 del 01/06/2007. En Abril 2008 la última modificación a la Ley de Comunas 1.777 fue publicada en el Boletín Oficial Nº 2.910 del 16/04/2008.  Fue sancionada como Ley Nº 2.560/08. En Diciembre del 2011 se ajustaron los límites de cada barrio a la última versión de la topología de las calles de CABA.
+En Septiembre 2006 la modificación en base a la [Ley Nº 1.777](http://www.buenosaires.gob.ar/areas/leg_tecnica/sin/normapop09.php?id=77544&qu) y sus modificatorias que redefine los límites de los Barrios de la Ciudad y deroga la Ordenanza 26.607 de 1972. En Noviembre 2006 se delimitaron los nuevos límites de Barrios según Ley Nº 1.777 generados por la Dirección General Electoral. En Junio 2007 ocurrió la última modificación a la Ley Nº 1777. Fue sancionada como [Ley Nº 2329](http://www.buenosaires.gob.ar/areas/leg_tecnica/sin/normapop09.php?id=99619&qu=c&ft=0&cp=&rl=0&rf=0&im=&ui=0&printi=&pelikan=1&sezion=825352&primera=0&mot_toda=&mot_frase=comunas&mot_alguna=) del 10/5/07, promulgada por Decreto Nº 779/07 del 01/06/2007. En Abril 2008 la última modificación a la Ley de Comunas 1.777 fue publicada en el Boletín Oficial Nº 2.910 del 16/04/2008.  Fue sancionada como Ley Nº 2.560/08. En Diciembre del 2011 se ajustaron los límites de cada barrio a la última versión de la topología de las calles de CABA.
 
 **Una comuna se subdivide a su vez en jurisdicciones de segundo orden** llamadas [barrios](https://data.buenosaires.gob.ar/dataset/barrios).
 
@@ -298,7 +301,11 @@ Los identificadores de cada una de estas divisiones se componen, sucesivamente, 
 
 A desarrollar
 
-##### C. ¿Cómo nombrar los campos?
+##### C. Otros nomencladores (espacios verdes, escuelas, centros de salud)
+
+A desarrollar
+
+##### D. ¿Cómo nombrar los campos?
 
 Al igual que en el caso de los países o territorios internacionales, el dataset debe contener un campo con el código de la división o unidad territorial interna y otro con el nombre o descripción (en caso de que la tenga, anteriormente dijimos que las fracciones y radios censales no tienen nombre o descripción).
 
@@ -387,7 +394,7 @@ Si el dataset incluye direcciones fuera del territorio argentino, deben además 
 * "pais_id"
 * "pais_nombre"
 
-Para normalizar las direcciones de la CABA, recomendamos utilizar el [Normalizador de direcciones CABA](http://usig.buenosaires.gob.ar/) de la Unidad de Sistemas de Información Geográfica (USIG) del Gobierno de la Ciudad Autónoma de Buenos Aires.
+Para normalizar las direcciones de la CABA, recomendamos utilizar el servicio del [Normalizador de direcciones CABA](http://usig.buenosaires.gob.ar/) de la Unidad de Sistemas de Información Geográfica (USIG) del Gobierno de la Ciudad Autónoma de Buenos Aires.
 
 <span class="no-recomendado">**No recomendado**</span>
 

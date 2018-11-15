@@ -46,7 +46,7 @@
 
 ## Introducción
 
-Esta guía busca ayudar a los organismos de la Administración Centralizada y Descentralizada y a las Entidades Autárquicas del Gobierno de la Ciudad Autónoma de Buenos Aires a instrumentar los lineamientos en materia de apertura de datos públicos establecidos en los Decretos N°[156/2012](https://boletinoficial.buenosaires.gob.ar/normativaba/norma/190097) y N° [478/2013](https://boletinoficial.buenosaires.gob.ar/normativaba/norma/234859) y a mejorar la calidad y la gestión de los datos generados por estas entidades. Está basada en la [Guía de buenas prácticas para la publicación de datos en formatos abiertos](https://paquete-apertura-datos.readthedocs.io/es/stable/guia_abiertos.html) elaborada por el equipo de la Dirección Nacional de Datos e Información Pública de la Secretaría de Gobierno de Modernización de la Jefatura de Gabinete de Ministros de la Nación. 
+Esta guía busca ayudar a los organismos de la Administración Centralizada y Descentralizada y a las Entidades Autárquicas del Gobierno de la Ciudad Autónoma de Buenos Aires a instrumentar los lineamientos en materia de apertura de datos públicos establecidos en los Decretos N°[156/2012](https://boletinoficial.buenosaires.gob.ar/normativaba/norma/190097) y N° [478/2013](https://boletinoficial.buenosaires.gob.ar/normativaba/norma/234859) y a mejorar la calidad y la gestión de los datos generados por entidades que produzcan datos o bien los tengan bajo su tutela y/o jurisdicción. Está basada en la [Guía de buenas prácticas para la publicación de datos en formatos abiertos](https://paquete-apertura-datos.readthedocs.io/es/stable/guia_abiertos.html) elaborada por el equipo de la Dirección Nacional de Datos e Información Pública de la Secretaría de Gobierno de Modernización de la Jefatura de Gabinete de Ministros de la Nación. 
 
 ## Objetivo de la guía
 
@@ -226,6 +226,8 @@ a,,b\r\n
 a,"",b\r\n
 ```
 
+Cabe destacar que un archivo csv puede convertirse en un archivo de planilla de cálculo ingresando al formato propietario de MS Office o software similar, donde los campos se separarán en columnas independientes a través de (,).
+
 ### JSON
 
 JSON es un formato de texto popular para el intercambio de datos, es un acrónimo de  JavaScript Object Notation. Por su característica de ser un formato de tipo estructurado es especialmente útil para el intercambio de datos entre máquina (*machine - readable format*).
@@ -246,7 +248,7 @@ Para esto, recomendamos usar conceptos simples, fragmentando:
 
 Sin embargo, siempre que se decida fragmentar un archivo para garantizar su accesibilidad,  recomendamos publicar también una versión no fragmentada que contenga el conjunto de datos completo (aunque sea muy grande), a los fines de evitar la tarea de consolidación.
 
-Para eso, sugerimos usar protocolos de compresión, en especial para archivos muy grandes, y altamente compresibles. De hacerlo, aconsejamos protocolos sin pérdida, y abiertos.
+Para eso, sugerimos usar protocolos de compresión, en especial para archivos muy grandes, y altamente compresibles. De hacerlo, aconsejamos protocolos sin pérdida, y abiertos. Sugerimos utilizar el formato de compresión ZIP.
 
 ## Nomenclatura de archivos
 
@@ -271,6 +273,8 @@ Para la fragmentación temporal, recomendamos el estándar de los ejemplos, ya q
 Para la fragmentación por zonas, consultá la **[Guía para la identificación y uso de entidades interoperables de la Ciudad Autónoma de Buenos Aires](guia_interoperables.md)**, y mirá cómo nombrarlas adecuadamente.
 
 En el caso de usar dimensiones temáticas propias del dominio particular de la información, podés ver esa guía o usar el mejor estándar identificado para esa temática particular.
+
+En caso de comprimir varios archivos, recomendamos mantener la misma nomenclatura para todos los archivos (con distintos tipos de formato), incluso para el comprimido.
 
 ## Codificación
 
@@ -572,7 +576,7 @@ Recolección de residuos - 198</td>
 
 #### Valores nulos, desconocidos o en blanco en campos numéricos
 
-Los valores de los datos deben ser siempre explícitos y respetando el tipo de datos del campo de que se trate. Los elementos o celdas en blanco se interpretarán siempre como "valor ausente". 
+Los valores de los datos deben ser siempre explícitos y respetando el tipo de datos del campo de que se trate. Los elementos o celdas en blanco se interpretarán siempre como "valor ausente" y no se representan con "0". 
 
 Si existen distintas interpretaciones posibles de un "valor ausente", éstas deben ser explicitadas en un campo aparte. Si sólo hay “valores ausentes” (no hay distintas interpretaciones, es siempre un “valor ausente”) no es necesario agregar una columna adicional.
 
@@ -1086,6 +1090,8 @@ Esta recomendación no contempla estos casos específicos:
 
 #### Coordenadas
 
+El estándar utilizado para la referencia del sistema de coordenadas (Coordinate Reference Systems) es el [EPSG: 4326 - WGS 84](http://spatialreference.org/ref/epsg/wgs-84).
+
 Para registrar datos de coordenadas geográficas de puntos, usamos números decimales. Los campos deberán llamarse "lat" y “long”. Cuando sea conveniente especificar el nombre de la entidad de la cual se consignan las coordenadas, se usarán los sufijos “_lat” y “_long”. Para más información se recomienda visitar el [GeoCoder](http://ws.usig.buenosaires.gob.ar/geocoder/2.2) de la USIG
 
 
@@ -1119,6 +1125,10 @@ Para registrar datos de coordenadas geográficas de puntos, usamos números deci
   </tr>
 </tbody>
 </table>
+
+Para datos geográficos que no sean coordenadas/puntos (por ejemplo líneas o polígonos) recomendamos su especificación en [WKT (Well Known Text)](https://www.opengeospatial.org/standards/wkt-crs). Los puntos/coordenadas también se pueden representar en WKT, pero en estos casos recomendamos utilizar latitud y longitud para representarlos.
+
+También para datos geográficos, recomendamos incluir por una parte un CSV con campos geográficos (en WKT o puntos de coordenadas), y por otra parte el archivo en su formato geoespacial (en alguno de los formatos recomendados anteriormente).
 
 
 ### Tiempo
@@ -1197,6 +1207,8 @@ Lunes a Miercoles 8 a 11 y de Viernes a Domingo 9 a 10 -> "LUN-MIE__08:00-11:00 
 * Se utilizará el estándar de Contrataciones Abiertas ([Open Contracting Data Standard](http://standard.open-contracting.org/)) para la publicación de datos vinculados con contrataciones públicas.
 
 * Siguiendo los lineamientos del Ministerio de Desarrollo Urbano y Transporte, los datos de movilidad se publicarán de acuerdo al estándar abierto GTFS ([General Transit Feed Standard](https://developers.google.com/transit/gtfs/?hl=es)).
+
+* Para datos geográficos se utiliza el estándar WKT ([Well-Known Text](https://www.opengeospatial.org/standards/wkt-crs)).
 
 ### Booleano
 
