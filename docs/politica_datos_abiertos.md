@@ -160,19 +160,19 @@ Por último, la DGCIyGA podrá solicitar a las entidades la apertura de un recur
 
 La DGCIyGA es la responsable primaria de la administración de [data.buenosaires.gob.ar](https://data.buenosaires.gob.ar). Con el objetivo de garantizar la sostenibilidad de la estrategia a de apertura se proponen 4 alternativas para la transferencia de archivos entre el área generadora y la DGCIyGA.
 
-1. **Disponibilización de Servicios Web para acceso de datos**
+**1. Disponibilización de Servicios Web para acceso de datos**
 
 El área responsable otorga las credenciales necesarias y habilita a la DGCIyGA la extracción de datos a través de un servicio web. El desarrollo y mantenimiento del mismo es responsabilidad del área dueña del dato, a menos que lo contrario sea acordado con la DGCIyGA. 
 
-2. **Habilitación de permisos de sólo lectura en base de datos**
+**2. Habilitación de permisos de sólo lectura en base de datos**
 
 El área responsable otorga las credenciales necesarias y habilita a la DGCIyGA el acceso a una base de datos en modo lectura y la extracción de sus datos.
 
-3. **Carga de datos en ftp.buenosaires.gob.ar**
+**3. Carga de datos en ftp.buenosaires.gob.ar**
 
 El área responsable carga sus datos en ftp.buenosaires.gob.ar siguiendo en la mayor medida posible los lineamientos sobre estándares del presente documento. La DGCIyGA será la responsable de administrar los accesos al mismo.
 
-4. **Envío de archivos a DGCIyGA**
+**4. Envío de archivos a DGCIyGA**
 
 El área responsable envía vía correo los datos a ser publicados en [data.buenosaires.gob.ar](https://data.buenosaires.gob.ar) siguiendo en la mayor medida posible los lineamientos sobre estándares del presente documento.
 
@@ -202,7 +202,7 @@ Ante cualquier consulta recibida por parte de ciudadanos respecto a los datos pu
 
 ## Esquema de apertura
 
-1. **Identificación de apertura**
+**1. Identificación de apertura**
 
 La incorporación de un nuevo conjunto de datos puede surgir de diversas fuentes:
 
@@ -226,29 +226,27 @@ La incorporación de un nuevo conjunto de datos puede surgir de diversas fuentes
 
 * Solicitud de la DGCIyGA
 
-2. **Acuerdo con el área**
+**2. Acuerdo con el área**
 
 Una vez identificado el dato, la DGCIyGA analiza con el área responsable la factibilidad de  su apertura. En esta etapa se tiene especial consideración aquellas normativas vigentes que regulan o que podrían alcanzar al conjunto de datos.
 
 En caso de ser posible su publicación, las partes acuerdan las condiciones de esta apertura(estructura, formato y frecuencia de actualización).
 
-3. **Recepción de información**
+**3. Recepción de información**
 
 Siguiendo el acuerdo alcanzado, el área responsable disponibiliza en el formato convenido los datos a la DGCIyGA para un análisis en profundidad previo a su apertura.
 
-4. **Análisis y Normalización**
+**4. Análisis y Normalización**
 
 Teniendo en consideración la Guía de Apertura de Datos de la Ciudad de Buenos Aires, la DGCIyGA analiza exhaustivamente los datos provistos a fin de adecuarlos a los estándares definidos, así como verificar su coherencia. En caso de que sea necesario se aplicarán las transformaciones necesarias a fin de adecuar los datos y la estructura a los criterios generales, sin alterar su representación. La DGCIyGA deberá informar el detalle de los procesos aplicados así como disponibilizar el código utilizado en caso de que el área así lo solicite.
 
-5. **Documentación**
+**5. Documentación**
 
 En conjunto con el área responsable se completa y se publica la Guía de Metadatos correspondiente.
 
-6. **Publicación y notificación**
+**6. Publicación y notificación**
 
 La DGCIyGA disponibiliza el conjunto de datos en [data.buenosaires.gob.ar](https://data.buenosaires.gob.ar) siguiendo los criterios acordados con el área responsable y le notifica mediante mail su correcta publicación.
-
-  
 
 **7. Monitoreo de Apertura**
 
