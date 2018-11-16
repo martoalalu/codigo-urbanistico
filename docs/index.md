@@ -12,5 +12,5 @@ Podés colaborar con las guías cargando un nuevo issue, o respondiendo a un iss
 * [Guía para la publicación de datos en formatos abiertos](guia_abiertos.md)
 * [Guía para la identificación y uso de entidades interoperables](guia_interoperables.md)
 * [Guía para el uso y la publicación de metadatos](guia_metadatos.md)
-* Política de Datos Abiertos
+* [Política de Datos Abiertos](politica_datos_abiertos.md)
 * [Glosario](glosario.md)

@@ -161,8 +161,8 @@ Se recomienda también que el nombre del campo del código sea "pais_id" o, en e
 En el caso de las divisiones o unidades territoriales internas, recomendamos usar el sistema de identificadores de la cartografía censal del Censo Nacional 2010 del Instituto Nacional de Estadística y Censos ([listado de códigos](https://redatam.indec.gob.ar/redarg/CENSOS/CPV2010rad/Docs/codigos_provincias.pdf) y [explicación metodológica](http://geoservicios.indec.gov.ar/codgeo/index.php?pagina=definiciones)) que incluye identificadores numéricos compuestos de una cantidad fija de dígitos (el tipo de datos debe ser textual, ya que tiene ceros a la izquierda que son significativos) para, entre otras, las siguientes entidades interoperables:
 
 * Provincias ([CSV](http://www.ign.gob.ar/descargas/geodatos/departamento.csv) | [SHP](http://www.ign.gob.ar/descargas/geodatos/provincia.zip) | [GEOJSON](http://www.ign.gob.ar/descargas/geodatos/provincia_geojson.zip))
-* Comunas
-* Barrios
+* [Comunas](https://data.buenosaires.gob.ar/api/files/comunas.csv/download)
+* [Barrios](https://data.buenosaires.gob.ar/api/files/barrios.csv/download)
 * Fracciones Censales
 * Radios Censales
 

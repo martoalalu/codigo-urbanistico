@@ -2,17 +2,17 @@ site_name: Estrategia de Apertura de Datos del GCBA
 site_url: https://datosgcba.github.io/guia-datos/
 site_description: Recursos para la apertura de datos públicos del Gobierno de la Ciudad Autónoma de Buenos Aires.
 site_author: Buenos Aires Data
-repo_url: https://datosgcba.github.io/guia-datos/
+repo_url: https://github.com/datosgcba/
 
 nav:
   - Inicio: index.md
   - Guía para la publicación de datos en formatos abiertos: guia_abiertos.md
   - Guía para la identificación y uso de entidades interoperables: guia_interoperables.md
   - Guía para el uso y la publicación de metadatos: guia_metadatos.md
-  - Política de Datos Abiertos: guia_metadatos.md 
+  - Política de Datos Abiertos: politica_datos_abiertos.md 
   - Glosario: glosario.md
 
 theme:
   name: 'material'
 
-google_analytics: ['UA-91435482-1', "https://datosgobar.github.io/paquete-apertura-datos/"]
+google_analytics: ['UA-91435482-1', "https://datosgcba.github.io/guia-datos/"]
