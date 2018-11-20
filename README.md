@@ -1,6 +1,6 @@
 # guia-datos
 
-[![Documentation Status](https://img.shields.io/readthedocs/:package.svg)](https://img.shields.io/readthedocs/:package.svg)
+[![Documentation Status](http://readthedocs.org/projects/paquete-apertura-datos/badge/?version=stable)](http://paquete-apertura-datos.readthedocs.org/es/stable/?badge=stable)
 
 Repositorio de las guías de datos del Gobierno de la Ciudad de Buenos Aires.
 
