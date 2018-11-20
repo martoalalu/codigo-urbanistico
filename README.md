@@ -1,6 +1,6 @@
 # guia-datos
 
-![LGTM Grade](https://img.shields.io/lgtm/grade/java/g/apache/cloudstack.svg)
+![Read the Docs](https://img.shields.io/readthedocs/:package.svg)
 
 Repositorio de las guías de datos del Gobierno de la Ciudad de Buenos Aires.
 
