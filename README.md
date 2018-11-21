@@ -26,6 +26,8 @@ Las **[guías de buenas prácticas](https://datosgcba.github.io/guia-datos)** so
 
 ## Contacto
 
-Podés mandarnos tu comentario o consulta a [gobiernoabierto@buenosaires.gob.ar](mailto:gobiernoabierto@buenosaires.gob.ar).
+Nos podes [crear un issue](https://github.com/datosgcba/guia-datos/issues/new) para reportar errores, sugerir cambios o cualquier tipo de devolución que quieras hacer sobre las guías.
+
+También podés enviarnos tu comentario/consulta a [gobiernoabierto@buenosaires.gob.ar](mailto:gobiernoabierto@buenosaires.gob.ar).
 
 

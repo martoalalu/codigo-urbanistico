@@ -1,21 +1,9 @@
-¡Hola! Gracias por colaborar con este proyecto. 
+Hola, muchas gracias por colaborar con las guías de buenas prácticas del Gobierno de la Ciudad de Buenos Aires.
 
-Antes de crear el issue, por favor, asegurate de que nadie haya creado el issue que estás reportando.
+Antes de crear el issue, por favor, asegurate de que nadie haya creado el mismo que estás reportando.
 
-Si este issue es para pedir nuevas o mejores funcionalidades, contanos:
+Para este issue, contanos qué cambio/error detectaste, por qué razones y también, si es posible, adjuntanos un ejemplo. 
 
-* ¿Por qué querés esta funcionalidad?
-* ¿Cómo esperás que funcione? 
+Para  otras consultas podes escribirnos a gobiernoabierto@buenosaires.gob.ar
 
-Si querés reportar un bug, especificanos: 
-
-* ¿Cuál es el comportamiento que esperabas y cuál fue el comportamiento recibido? 
-* ¿Cuáles son los pasos para reproducir el bug?
-* Detalles del contexto: ¿qué sistema operativo, qué versión de navegador estás usando, por ejemplo?
-* ¿Tenés algún stack trace o captura de pantalla? Adjuntalo.  
-
-Si tenés otra consulta, dejanos una descripción bien específica, para que podamos ayudarte. 
-
-Para  preguntas de carácter privado, podés escribirnos a datos@modernizacion.gob.ar.
-
-¡Muchas gracias por colaborar!
+¡Muchas gracias por tu colaboración!
