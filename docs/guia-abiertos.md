@@ -86,7 +86,7 @@ El documento sigue la estructura de la Guía para la apertura del Gobierno Nacio
 
 Estos son los primeros aspectos importantes para la estandarización de datos.
 
-Para una discusión sobre los estándares recomendados en el manejo de datos básicos y fundamentales, transversales a distintas áreas temáticas, se puede consultar la **[Guía para la identificación y uso de entidades interoperables de la Ciudad Autónoma de Buenos Aires] (guia-interoperables.md)**.
+Para una discusión sobre los estándares recomendados en el manejo de datos básicos y fundamentales, transversales a distintas áreas temáticas, se puede consultar la **[Guía para la identificación y uso de entidades interoperables de la Ciudad Autónoma de Buenos Aires](guia-interoperables.md)**.
 
 ## Formatos abiertos de archivos
 

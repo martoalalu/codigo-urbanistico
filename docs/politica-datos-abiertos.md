@@ -182,7 +182,7 @@ La DGCIyGA mantendrá permanente relación con las áreas productoras de datos y
 
 ## Calidad y Estándares de datos
 
-Para mejorar la calidad y la gestión de los datos generados, la DGCIyGA ha puesto a disposición de las entidades una Guía para la publicación de datos en formatos abiertos del Gobierno de la Ciudad de Buenos Aires, la cual define los estándares de calidad a ser utilizados para los recursos y datasets publicados en [data.buenosaires.gob.ar](data.buenosaires.gob.ar). Esta Guía se complementa con la Guía para la identificación y uso de entidades interoperables del Gobierno de la Ciudad de Buenos Aires, la cual está orientada a datos que se repiten en varios datasets y cuya estructura debe mantenerse con el objetivo de garantizar trazabilidad de la información. 
+Para mejorar la calidad y la gestión de los datos generados, la DGCIyGA ha puesto a disposición de las entidades una Guía para la publicación de datos en formatos abiertos del Gobierno de la Ciudad de Buenos Aires, la cual define los estándares de calidad a ser utilizados para los recursos y datasets publicados en [data.buenosaires.gob.ar](https://data.buenosaires.gob.ar). Esta Guía se complementa con la Guía para la identificación y uso de entidades interoperables del Gobierno de la Ciudad de Buenos Aires, la cual está orientada a datos que se repiten en varios datasets y cuya estructura debe mantenerse con el objetivo de garantizar trazabilidad de la información. 
 
 ## Metadatos
 
