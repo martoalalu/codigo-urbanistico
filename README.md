@@ -13,9 +13,9 @@ Repositorio de las guías de datos del Gobierno de la Ciudad de Buenos Aires.
 
 Las **[guías de buenas prácticas](https://datosgcba.github.io/guia-datos)** son un trabajo colaborativo y en progreso. Valoramos e invitamos a todas las organizaciones y ciudadanos a plantear ideas, sugerencias y comentarios que contribuyan a crear mejores documentos. Están basadas en las [guías de buenas prácticas](https://paquete-apertura-datos.readthedocs.io/es/stable/) desarrolladas por el equipo de la Dirección Nacional de Datos e Información Pública de la Secretaría de Gobierno de Modernización de la Jefatura de Gabinete de Ministros de la Nación
 
-* **[Guía para la publicación de datos en formatos abiertos](https://datosgcba.github.io/guia-datos/guia_abiertos)**
-* **[Guia para la identificación y uso de entidades interoperables](https://datosgcba.github.io/guia-datos/guia_interoperables/)**
-* **[Guía para el uso y la publicación de metadatos](https://datosgcba.github.io/guia-datos/guia_metadatos/)**
+* **[Guía para la publicación de datos en formatos abiertos](https://datosgcba.github.io/guia-datos/guia-abiertos)**
+* **[Guia para la identificación y uso de entidades interoperables](https://datosgcba.github.io/guia-datos/guia-interoperables/)**
+* **[Guía para el uso y la publicación de metadatos](https://datosgcba.github.io/guia-datos/guia-metadatos/)**
 
 ## Estructura del repositorio
 

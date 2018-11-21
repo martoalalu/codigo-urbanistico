@@ -86,7 +86,7 @@ El documento sigue la estructura de la Guía para la apertura del Gobierno Nacio
 
 Estos son los primeros aspectos importantes para la estandarización de datos.
 
-Para una discusión sobre los estándares recomendados en el manejo de datos básicos y fundamentales, transversales a distintas áreas temáticas, se puede consultar la **[Guía para la identificación y uso de entidades interoperables de la Ciudad Autónoma de Buenos Aires] (guia_interoperables.md)**.
+Para una discusión sobre los estándares recomendados en el manejo de datos básicos y fundamentales, transversales a distintas áreas temáticas, se puede consultar la **[Guía para la identificación y uso de entidades interoperables de la Ciudad Autónoma de Buenos Aires] (guia-interoperables.md)**.
 
 ## Formatos abiertos de archivos
 
@@ -270,7 +270,7 @@ Ejemplos:
 
 Para la fragmentación temporal, recomendamos el estándar de los ejemplos, ya que es compacto y ordena los recursos por tiempo: YYYYMMDD. Por favor, recordá mantener siempre dos dígitos para el mes y el día, incluso si el número es menor a 10.
 
-Para la fragmentación por zonas, consultá la **[Guía para la identificación y uso de entidades interoperables de la Ciudad Autónoma de Buenos Aires](guia_interoperables.md)**, y mirá cómo nombrarlas adecuadamente.
+Para la fragmentación por zonas, consultá la **[Guía para la identificación y uso de entidades interoperables de la Ciudad Autónoma de Buenos Aires](guia-interoperables.md)**, y mirá cómo nombrarlas adecuadamente.
 
 En el caso de usar dimensiones temáticas propias del dominio particular de la información, podés ver esa guía o usar el mejor estándar identificado para esa temática particular.
 
@@ -924,7 +924,7 @@ Por ejemplo, para el caso de localidades que conforman el Área Metropolitana de
 
 #### Instituciones del Gobierno de la Ciudad de Buenos Aires
 
-El nombre y las siglas de las instituciones del Gobierno de la Ciudad Autónoma de Buenos Aires serán los establecidos en la [estructura de gobierno](http://www.buenosaires.gob.ar/organigrama/?menu_id=505) de la Secretaria Legal y Técnica. Se recomienda revisar la **[Guía para el uso y la publicación de metadatos del Gobierno de la Ciudad Autónoma de Buenos Aires](guia_metadatos.md)**.
+El nombre y las siglas de las instituciones del Gobierno de la Ciudad Autónoma de Buenos Aires serán los establecidos en la [estructura de gobierno](http://www.buenosaires.gob.ar/organigrama/?menu_id=505) de la Secretaria Legal y Técnica. Se recomienda revisar la **[Guía para el uso y la publicación de metadatos del Gobierno de la Ciudad Autónoma de Buenos Aires](guia-metadatos.md)**.
 
 #### Siglas
 

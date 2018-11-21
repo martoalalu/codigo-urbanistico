@@ -38,7 +38,7 @@ Para hacer estas recomendaciones, nos basamos en la [guía del Gobierno Nacional
 
 Esta es **una guía colaborativa y en progreso**. Valoramos, y alentamos, a organizaciones y ciudadanos a plantear ideas, sugerencias, y comentarios que nos ayuden a crear un mejor documento.
 
-Para una discusión sobre la estandarización de datos, recomendamos consultar la **[Guía para la publicación de datos en formatos abiertos de la Ciudad de Buenos Aires](guia_abiertos.md)**. Este documento se complementa con esa guía y la **[Guía para el uso y la publicación de metadatos de la Ciudad de Buenos Aires](guia_metadatos.md)**.
+Para una discusión sobre la estandarización de datos, recomendamos consultar la **[Guía para la publicación de datos en formatos abiertos de la Ciudad de Buenos Aires](guia-abiertos.md)**. Este documento se complementa con esa guía y la **[Guía para el uso y la publicación de metadatos de la Ciudad de Buenos Aires](guia-metadatos.md)**.
 
 ## Datos de entidades interoperables
 

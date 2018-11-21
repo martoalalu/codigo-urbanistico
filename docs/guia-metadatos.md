@@ -14,7 +14,7 @@ Las recomendaciones se basan en la guía del Gobierno Nacional, en estándares u
 
 Esta es **una guía colaborativa y en progreso**. Valoramos, y alentamos, a organizaciones y ciudadanos a plantear ideas, sugerencias, y comentarios que nos ayuden a crear un mejor documento.
 
-Este documento se complementa con la **[Guía para la publicación de datos en formatos abiertos](guia_abiertos.md)** y la **[Guía para la identificación y uso de entidades interoperables del Gobierno de la Ciudad Autónoma de Buenos Aires](guia_interoperables.md)**.
+Este documento se complementa con la **[Guía para la publicación de datos en formatos abiertos](guia-abiertos.md)** y la **[Guía para la identificación y uso de entidades interoperables del Gobierno de la Ciudad Autónoma de Buenos Aires](guia-interoperables.md)**.
 
 ### ¿Qué son los metadatos?
 
