@@ -1193,7 +1193,7 @@ Ejemplos:
 24hs -> "00:00-23:59" 
 Jueves 24hs -> "JUE" 
 Jueves de 14:30 a 17 hs -> "JUE__14:30-17:00" 
-Jueves de 8 a 12 hs y de 16 a 20 hs -> "JUE__08:12-17:00_16:00-20:00" 
+Jueves de 8 a 12 hs y de 16 a 20 hs -> "JUE__08:00-12:00_16:00-20:00" 
 Jueves de 8 a 15 hs y Viernes de 8 a 15 hs -> "JUE__08:00-15:00 VIE_08:00-15:00" 
 Lunes a Viernes 7:30 a 17 hs y Sábados 8 a 12 hs -> "LUN-VIE__07:30-17:00 SAB__08:00-12:00" 
 Lunes a Viernes 8 a 11 y 14 a 18 hs -> "LUN-VIE__08:00-11:00_14:00-18:00" 
