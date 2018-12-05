@@ -10,7 +10,7 @@ La apertura de datos es una estrategia ligada a las prácticas de Gobierno Abier
 
 ## Datos Abiertos
 
-Un dato abierto es aquel que puede ser utilizado, reutilizado y redistribuido libremente por cualquier persona, y que sólo deben atribuirse y compartirse con la misma licencia con la que fueron publicados (NOTE:  Fundación para el Conocimiento Abierto). La iniciativa Open Government Data definió ocho principios que especifican condiciones a tener en cuenta para que los datos sean considerados abiertos (NOTE:  https://public.resource.org/8_principles.html ):
+Un dato abierto es aquel que puede ser utilizado, reutilizado y redistribuido libremente por cualquier persona, y que sólo deben atribuirse y compartirse con la misma licencia con la que fueron publicados. La iniciativa Open Government Data definió ocho principios que especifican [condiciones a tener en cuenta para que los datos sean considerados abiertos](https://public.resource.org/8_principles.html):
 
 1. **Completo**: estar disponibles y no tener restricciones para la apertura.
 
