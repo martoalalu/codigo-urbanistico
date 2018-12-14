@@ -1,0 +1,43 @@
+html {
+  background-color: #fff!important;
+}
+
+.md-header.md-header {
+  box-shadow: none;
+  position: absolute;
+  background-color: transparent;
+  display: table;
+  padding-top: 20px;
+  color: #19c3e3;
+}
+
+.md-header .md-header-nav__source {
+  width: 15rem;
+  margin-left: 0;
+}
+
+a:visited, .btn-link:visited {
+  color: #19c3e3;
+}
+
+a, a:hover {
+  color: #19c3e3;
+}
+
+.md-typeset a {
+  color: #19c3e3;
+}
+
+.md-nav__link[data-md-state="blur"] {
+  color: #19c3e3;
+}
+
+.md-sidebar[data-md-state="lock"] {
+  top: 0;
+}
+
+.md-search-result__title {
+  margin: 0.5em 0;
+  font-size: 1.4rem;
+  font-weight: 100;
+}
