@@ -119,52 +119,52 @@ a, a:hover  {
   text-indent: -9999px;
 }
 .social-fb {
-  background-image: url(/img/social/social-fb.png);
-  background-image: url(/img/social/social-fb.svg), none;
+  background-image: url(../images/social/social-fb.png);
+  background-image: url(../images/social/social-fb.svg), none;
   background-size: cover;
   -ms-behavior: url(../css/backgroundsize.min.htc);
 }
 .social-tw {
-  background-image: url(/img/social/social-tw.png);
-  background-image: url(/img/social/social-tw.svg), none;
+  background-image: url(../images/social/social-tw.png);
+  background-image: url(../images/social/social-tw.svg), none;
   background-size: cover;
   -ms-behavior: url(../css/backgroundsize.min.htc);
 }
 .social-gp {
-  background-image: url(/img/social/social-gp.png);
-  background-image: url(/img/social/social-gp.svg), none;
+  background-image: url(../images/social/social-gp.png);
+  background-image: url(../images/social/social-gp.svg), none;
   background-size: cover;
   -ms-behavior: url(../css/backgroundsize.min.htc);
 }
 .social-yt {
-  background-image: url(/img/social/social-yt.png);
-  background-image: url(/img/social/social-yt.svg), none;
+  background-image: url(../images/social/social-yt.png);
+  background-image: url(../images/social/social-yt.svg), none;
   background-size: cover;
   -ms-behavior: url(../css/backgroundsize.min.htc);
 }
 .social-fl {
-  background-image: url(/img/social/social-fl.png);
-  background-image: url(/img/social/social-fl.svg), none;
+  background-image: url(../images/social/social-fl.png);
+  background-image: url(../images/social/social-fl.svg), none;
   background-size: cover;
   -ms-behavior: url(../css/backgroundsize.min.htc);
 }
 .social-rss {
-  background-image: url(/img/social/social-rss.png);
-  background-image: url(/img/social/social-rss.svg), none;
+  background-image: url(../images/social/social-rss.png);
+  background-image: url(../images/social/social-rss.svg), none;
   background-size: cover;
   -ms-behavior: url(../css/backgroundsize.min.htc);
 }
 .social-cc {
-  background-image: url(/img/social/social-cc.png);
-  background-image: url(/img/social/social-cc.svg), none;
+  background-image: url(../images/social/social-cc.png);
+  background-image: url(../images/social/social-cc.svg), none;
   background-size: cover;
   -ms-behavior: url(../css/backgroundsize.min.htc);
   margin-top: 8px;
 }
 
 .social-in {
-  background-image: url(/img/social/social-in.png);
-  background-image: url(/img/social/social-in.svg), none;
+  background-image: url(../images/social/social-in.png);
+  background-image: url(../images/social/social-in.svg), none;
   background-size: cover;
   -ms-behavior: url(../css/backgroundsize.min.htc);
 }
