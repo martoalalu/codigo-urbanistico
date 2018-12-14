@@ -39,9 +39,21 @@ a, a:hover  {
 .logo_footer {
     margin-top: 10px;
     width: 82%;
+
+    margin: 10px auto;
+    margin: 10px auto;
+    background-image: url(../images/logos/ba_vamosba_blanco.png);
+    background-repeat: no-repeat;
+    /* width: 260px; */
+    height: 72px;
 }
 .logo_footer_ciudad{
     margin: 10px auto;
+    margin: 10px auto;
+    background-image: url(../images/logos/logo-bac.svg);
+    background-repeat: no-repeat;
+    width: 260px;
+    height: 50px;
 }
 
 
