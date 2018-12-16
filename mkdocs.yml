@@ -15,6 +15,7 @@ nav:
 theme:
   name: 'datosgobar_docs'
   custom_dir: 'theme'
+  logo: 'assets/images/logos/ba_logo.png'
 
 extra_css:
   - 'assets/stylesheets/extra.css'
