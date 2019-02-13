@@ -16,6 +16,6 @@ Los documentos aquí presentados tiene como objetivo facilitar el acceso y la co
 
 
 * [Ley Código Urbanístico](codigo.md)
-* [Anexo I Catálogo de Inmuebles Protegidos](anexo-1.md)
+* [Anexo I Catálogo de Inmuebles Protegidos](anexo-2.md)
 * [Anexo II Áreas Especiales Individualizadas](anexo-2.md)
 * [Glosario](glosario.md)

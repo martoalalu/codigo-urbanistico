@@ -9,6 +9,7 @@ nav:
   - Ley de Código Urbanístico - N° 6099/18: codigo.md
   - Anexo I Catálogo de Inmuebles Protegidos: anexo-2.md
   - Anexo II Áreas Especiales Individualizadas: anexo-2.md
+  - Glosario: glosario.md
 
 theme:
   name: 'datosgobar_docs'

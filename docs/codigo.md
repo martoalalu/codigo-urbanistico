@@ -5246,7 +5246,6 @@ Condiciones de la Edificabilidad
 
 La Edificabilidad posee las siguientes condiciones:
 
-![imagen](media/d0e7d44f4ac6bb80015ed15ef88037f6.png)
 
 ### Corredores Altos (C.A.)
 
@@ -5265,7 +5264,7 @@ Entre L.O. y la L.I.B. se podrá edificar subsuelo según el artículo 6.6.
 En parcelas de esquina estará definido por la L.O.E. En los casos de retiros
 obligatorios, estará definido por la L.E.
 
-![](media/bc6de4da5e45ec9e3b967435ca842159.png)
+
 
 ### Corredores Medios (C.M.)
 
@@ -5285,7 +5284,7 @@ Entre L.O. y la L.I.B. se podrá edificar subsuelo según el artículo 6.6.
 En parcelas de esquina estará definido por la L.O.E. En los casos de retiros
 obligatorios, estará definido por la L.E.
 
-![](media/5e9cc44e78848b538fba081252c3cd7b.png)
+
 
 ### Unidades de Sustentabilidad de Altura Alta (U.S.A.A.)
 
@@ -5302,7 +5301,7 @@ Entre L.O. y la L.I.B. se podrá edificar subsuelo según el artículo 6.6.
 En parcelas de esquina estará definido por la L.O.E. En los casos de retiros
 obligatorios, estará definido por la L.E.
 
-![](media/41b6d57391ba93467e9f9eed292087ea.png)
+
 
 ### Unidades de Sustentabilidad de Altura Media (U.S.A.M.)
 
@@ -5319,7 +5318,7 @@ Entre L.O. y la L.I.B. se podrá edificar subsuelo según el artículo 6.6.
 En parcelas de esquina estará definido por la L.O.E. En los casos de retiros
 obligatorios, estará definido por la L.E.
 
-![](media/6419827a7ae2521dcddbf2845615fba6.png)
+
 
 ### Unidades de Sustentabilidad de Altura Baja 2 (U.S.A.B.2)
 
@@ -5335,7 +5334,7 @@ Entre L.O. y la L.I.B. se podrá edificar subsuelo según el artículo 6.6.
 En parcelas de esquina estará definido por la L.O.E. En los casos de retiros
 obligatorios, estará definido por la L.E.
 
-![](media/bcc5532beda259a20d9af312ee4d7ab5.png)
+
 
 ### Unidades de Sustentabilidad de Altura Baja 1 (U.S.A.B.1)
 
@@ -5352,7 +5351,7 @@ Entre L.O. y la L.I.B. se podrá edificar subsuelo según el artículo 6.6
 En parcelas de esquina estará definido por la L.O.E. En los casos de retiros
 obligatorios, estará definido por la L.E.
 
-![](media/65a34ac6cca0ed8a29cdb0806d40d68e.png)
+
 
 Perfil Edificable
 -----------------
@@ -5388,7 +5387,7 @@ Los paramentos verticales envolventes de dichos volúmenes deberán ser tratados
 con materiales de igual jerarquía que los de las fachadas, formando una unidad
 de composición arquitectónica.
 
-![](media/e0ccd72c1e5a25a5e57df6ed567e2577.png)
+
 
 ### Construcciones Permitidas por sobre los Planos Límites
 
@@ -5428,18 +5427,14 @@ d) Sobre aceras aporticadas no se permiten balcones.
 
 En ningún caso se podrán ejecutar balcones sobre las vías férreas.
 
-![](media/4f7575375227f284daa4920219f2ff4c.png)
 
-![](media/be320b8d5d9f51b074df0dcfd564dff6.png)
-
-![](media/3c99cb261f9f495293d982a4f3cff3e4.png)
 
 ### Estructuras sobre Altura Máxima
 
 Se podrá ejecutar una estructura aporticada sobre la altura máxima hasta la
 altura del primer retiro de conformidad a la normativa de edificación.
 
-![](media/56b9264ad52be1161ca68f8dd577ee2f.png)
+
 
 ### Tratamiento de muros expuestos
 
@@ -5480,7 +5475,7 @@ Toda nueva obra que se levante con frente a la vía pública debe seguir la L.O.
 salvo las situaciones consignadas a continuación y la aplicación del artículo
 6.4.4.2.1.
 
-![](media/e39ac7bc96ab02fd90eff5845143b4f2.png)
+
 
 #### Línea Oficial de Edificación (L.E.)
 
@@ -5488,7 +5483,7 @@ La edificación frentista a las vías públicas comprendidas en el Listado “V�
 con Líneas Oficiales de Edificación Particularizadas” del Título 5 deberá
 respetar los retiros de frente con respecto al eje de calle que allí se indican.
 
-![](media/244cb7c768aac31f44ffc85c1ce8a043.png)
+
 
 #### Retiro de Frente
 
@@ -5512,7 +5507,7 @@ la normativa de Edificación.
 En los casos de vías con líneas particularizadas o sujetas a apertura o ensanche
 podrá ejecutarse cercas transitorias sobre la Línea Oficial.
 
-![](media/deea0b754dff200cc72ee1ddb11aa0f9.png)
+
 
 #### Línea Oficial de Esquina (L.O.E.)
 
@@ -5527,9 +5522,7 @@ modifiquen las existentes.
 Sobre la L.O.E. queda prohibida la construcción de accesos vehiculares sobre la
 zona de seguridad de bocacalle.
 
-![](media/ce691f7d8d5b6bcdb8b675203d842c4b.png)
 
-![](media/a5154f15fc95d619547bdcc8ff98fc9a.png)
 
 ##### Traza y dimensión de la L.O.E.
 
@@ -5567,7 +5560,7 @@ dicha línea y el cordón de acera correspondiente.
 urbanización especial aprobada por el Gobierno se ajustará a la traza fijada en
 la urbanización.
 
-![](media/b98036f1dde950b38109fc0f01b114ee.png)
+
 
 ##### Retiro Obligatorio de la L.O.E.
 
@@ -5626,9 +5619,7 @@ construir únicamente el piso bajo. Si por aplicación de lo establecido
 precedentemente resultara un chaflán, su resolución arquitectónica será aprobada
 por el Organismo Competente.
 
-![](media/5ffacd6e697ca920a58fefaef66a26c1.png)
 
-![](media/77e9390bebc411f4db48e48031011a81.png)
 
 ##### Convenio para formar la Línea Oficial de Esquina (C.L.O.E.)
 
@@ -5665,9 +5656,7 @@ urbano de dominio privado. Se sitúa paralelamente con respecto a cada L.O. o
 L.E. a una distancia (d) igual a un cuarto (¼) de la medida entre los puntos
 medios de las L.O. opuestas de la manzana.
 
-![](media/bdbff2c1ae2263a33c6ad4ed9b44a927.png)
 
-![](media/d20fa56de3d591ef475f2231a749e3cb.png)
 
 #### Casos especiales de determinación de L.F.I.
 
@@ -5689,9 +5678,7 @@ línea quebrada u oblicua, se la podrá regularizar, compensando el avance sobre
 la L.F.I. de la manzana con la cesión al Centro Libre de Manzana de un área
 equivalente a la que se invade, y no se generen muros linderos expuestos.
 
-![](media/d0376cb69af30a7b5d82dd9d3b4dfe49.png)
 
-![](media/2795c3347c672b143ff4837c187cfef6.png)
 
 b) Cuando el o los edificios linderos posean una línea de edificación existente
 que sobrepase la L.F.I. de la manzana y una altura igual o mayor según el
@@ -5708,7 +5695,7 @@ L.O. sobre la L.D.P (d) deberá ser de un tercio (1/3) de la distancia entre las
 L.D.P. medida desde el punto final de la medianera a cubrir (s), no pudiendo ser
 (d) menor de tres (3) metros.
 
-![](media/3d3cc7208f0b802dd58e90dac78e27a0.png)
+
 
 #### Extensiones vinculadas al Centro Libre de Manzana
 
@@ -5719,7 +5706,7 @@ expuestas, retirándose de la L.D.P lateral tres (3) metros como mínimo.
 
 El área descubierta resultante será considerada Espacio Urbano.
 
-![](media/7736ad3a729ea3aa7ce529a8fb9c4be0.png)
+
 
 b) Cuando se conformen extensiones del Centro Libre de Manzana, las mismas
 deberán regirse por Patios Verticales, artículo 6.4.4.3, o constituir por sí
@@ -5738,7 +5725,7 @@ igual o mayor a seis (6) metros.
 \- En U.S.A.B. y U.S.A.M. la distancia entre L.D.P. de fondo (d’) y la
 edificación debe ser igual o mayor a cuatro (4) metros.
 
-![](media/330ebb6ced2c79aeed697a630b74a1f1.png)
+
 
 #### Edificabilidad en las parcelas no alcanzadas por la L.F.I.
 
@@ -5756,17 +5743,7 @@ artículo 6.4.5.
 
 No será de aplicación en parcelas menores de veintidós (22) metros de fondo.
 
-![](media/df71683d14365ebcbedf723040bccae7.png)
 
-![](media/a1adb99c006d17b9994f41dd8990474f.png)
-
-![](media/3de3bd12eef1afc73c181c788f47d7b9.png)
-
-![](media/e33deac6fe8df3bdd1db166debf05d72.png)
-
-![](media/fb549b4d42498ac268d5f55f095fa783.png)
-
-![](media/5c45c16acbe5ee26cb2d7f91477abf7a.png)
 
 ### Línea Interna de Basamento (L.I.B.)
 
@@ -5781,9 +5758,7 @@ localización que corresponda al inmueble conforme indica el artículo 6.2. Por
 encima de dicha altura sólo podrán sobresalir barandas o parapetos traslúcidos
 hasta un metro con veinte centímetros (1,20) de alto.
 
-![](media/ab0a3002b3decb0f6457cd69d95c6cc0.png)
 
-![](media/2ccdb4b7677268571d921982028e3c0f.png)
 
 #### Parquización desde L.I.B.
 
@@ -5835,13 +5810,7 @@ de parcela de fondo.
 No se permiten salientes sobre este espacio urbano, salvo aplicación del
 artículo 6.4.5.
 
-![](media/000d3cc75c1f094e7f177c4207b5bb2f.jpg)
 
-![](media/99342592542c809d1898e6aa98b29e73.png)
-
-![](media/92cfee73f63bb83c6ff4e4588eaba2e8.jpg)
-
-![](media/8b8d92812feb2ea4b44fb2f2d508b8ab.jpg)
 
 ### Áreas Descubiertas
 
@@ -5880,9 +5849,7 @@ metros con veinte centímetros (2,20) sobre el solado del área descubierta.
 Sólo se permiten elementos plegables para la ocupación de áreas descubiertas que
 constituyan Espacio Urbano o Patio Vertical.
 
-![](media/cb5eb22aab575515d5ec0db9f1fc2a00.png)
 
-![](media/c1e7786cd0eb24b32fb1684306dcf8e5.png)
 
 #### Espacio Urbano
 
@@ -5910,9 +5877,7 @@ los locales.
 
 e) Patio bajo cota de parcela según artículo 6.4.4.2.2.
 
-![](media/293d027e72bd726f661982e925d71e24.png)
 
-![](media/6442737299df3bb51451ca03ff763a96.png)
 
 ##### Extensiones Apendiculares del Espacio Urbano
 
@@ -5922,9 +5887,7 @@ mitad de a y a mayor o igual a 2 p.
 
 El artículo 6.4.5 será de aplicación respecto del Vacío de Edificación generado.
 
-![](media/b1bc4d75aaac2852a99e35561dd19db2.png)
 
-![](media/5f0e5cb352cc4e28d6a1b9020480908b.png)
 
 #### Patios bajo cota de parcela
 
@@ -5951,9 +5914,7 @@ Se deberán cumplir las siguientes dimensiones:
 
 \- Lado mínimo d’ perpendicular a LDP = cuatro (4) metros.
 
-![](media/7b9ffd581d1b7ed5b6cd907b36569f09.png)
 
-![](media/84871e607508ad4d7e4e7821139e656f.png)
 
 #### Extensiones Apendiculares de los patios verticales
 
@@ -5966,9 +5927,7 @@ la profundidad (p) de estas extensiones. Las superficies de las extensiones
 apendiculares no podrán computarse para satisfacer la superficie mínima del
 patio vertical, según se establece en el artículo 6.4.4.3.1.
 
-![](media/a62730e9d5fb7e2976b9355d97854488.png)
 
-![](media/78312726657c2f482b3715d8819fbe36.png)
 
 #### Enfrentamiento de áreas descubiertas
 
@@ -5998,7 +5957,7 @@ existente y será descubierto.
 De existir balcones en el contrafrente éstos se ejecutarán dentro del cuerpo
 saliente.
 
-![](media/339b4fcd8b3ca3977192c5b6e837f434.png)
+
 
 ### Altura de Edificios de Esquina
 
@@ -6017,9 +5976,7 @@ cual deberá respetarse la altura menor correspondiente a la calle transversal.
 
 En el retiro de la altura menor (hm) se admite el uso residencial.
 
-![](media/4c40a1548ce9ea5e79fd9860d81bcbc4.jpg)
 
-![](media/7e72ac89459286c5dcf9f2b8175e27f0.jpg)
 
 B) En el caso de manzanas contempladas en el art. 6.4.2.1 en la cual una esquina
 cuyas vías públicas concurrentes autoricen distintas alturas de edificación, la
@@ -6035,7 +5992,6 @@ la línea divisoria de parcela, las construcciones por sobre la altura menor
 divisoria de parcela, para acreditarse la altura mayor (HM) y debe constituir
 fachada.
 
-![](media/30702df63ee5edfbb79104671c0ea031.png)
 
 ### Altura de edificación y ocupación en parcela intermedia con frente a dos o más calles
 
@@ -6062,7 +6018,6 @@ En los Edificios entre Medianeras se deberá completar la edificación entre las
 Líneas Divisorias Laterales de Parcela, sea en la L.O. o en la L.E. o en la
 L.O.E.
 
-![](media/44a6d958a139ad2c2d0231bac9416e3c.png)
 
 ### Edificios de Perímetro Libre
 
@@ -6091,7 +6046,7 @@ urbano de Edificios de Perímetro SemiLibre.
 c2) Generen diferentes volúmenes dentro de la misma parcela, mediante
 combinación tipológica con Edificios de Perímetro SemiLibre.
 
-![](media/2a33c7e08f2bfaa628494a3fcde9d4e5.png)
+
 
 ##### Edificabilidad de Edificios de Perímetro Libre
 
@@ -6159,9 +6114,7 @@ El Espacio Urbano conformado deberá tener un lado mínimo de cuatro (4) metros
 para los U.S.A.B.1, U.S.A.B.2 y U.S.A.M.; y seis (6) metros para U.S.A.A., C.M.
 y C.A.
 
-![](media/91f99665d79bc0b8146290be6c25376e.png)
 
-![](media/d28fd4a203d5799fed9efc7ab0b2874b.png)
 
 #### Disposiciones particulares
 
@@ -6183,23 +6136,7 @@ por el inciso b) en la porción no adosada.
 d) Respecto del paramento en que no se adose el edificio, la edificación dejará
 una distancia mínima de cuatro (4) metros desde la L.D.P.
 
-Caso A
 
-![](media/a6eb07faf9f8db19ea3daac41b93b648.png)
-
-![](media/5430459ef23007ca1d85b8b97743af1f.jpg)
-
-Caso B
-
-![](media/953095d2ab1a3abe30531186523ba8d8.png)
-
-![](media/5430459ef23007ca1d85b8b97743af1f.jpg)
-
-Caso C
-
-![](media/86f3f18510f989165ae2e95de0e79664.png)
-
-![](media/5430459ef23007ca1d85b8b97743af1f.jpg)
 
 ### Combinación de tipologías edilicias
 
@@ -6237,7 +6174,7 @@ cuya distancia entre los edificios existentes sobre la L.O. sea menor o igual a
 veintiséis (26) metros, aquellas podrán completar la edificabilidad igualando la
 altura del edificio a construir con la altura de los edificios materializados.
 
-![](media/fb45359c67244c967a3669fc26e755d7.png)
+
 
 A2) En el caso de una o más parcelas flanqueadas por edificios de igual altura
 cuya distancia entre los edificios existentes sobre la L.O. sea mayor a
@@ -6248,7 +6185,7 @@ Unidad según el artículo 6.2. Se considerarán alturas iguales cuando entre lo
 dos edificios no exista una diferencia mayor a un metro con cuarenta centímetros
 (1,40 metros).
 
-![](media/3f999e1abb803648fd9604f2dabbd1ab.png)
+
 
 #### Parcelas Flanqueadas por Edificios de Distintas Alturas (Tipo B)
 
@@ -6278,13 +6215,13 @@ alcanzar como máximo una altura del doble de la Unidad de Edificabilidad
 correspondiente. La mayor altura podrá materializarse hasta un máximo de cinco
 (5) metros sobre el frente.
 
-![](media/2bd9d2d6c35b9a14bfe5918ec7903520.png)
+
 
 B2) La altura menor será coincidente con la del edificio lindero más bajo cuando
 éste supera la altura de la parcela (B1) o será coincidente con la altura máxima
 admitida (B2).
 
-![](media/54183e3a2f6ab662798b8419e8ca0718.png)
+
 
 B3) En el caso de una o más parcelas flanqueadas por edificios de diferente
 altura cuya distancia entre los edificios existentes sobre la L.O. sea mayor a
@@ -6296,7 +6233,7 @@ Unidad según el artículo 6.2.
 Se considerarán alturas diferentes cuando entre los dos edificios exista una
 diferencia mayor a un metro con cuarenta centímetros (1,40 metros).
 
-![](media/f78d044b9a74b31f453a9ec1e057cde1.jpg)
+
 
 #### Parcelas en Esquina
 
@@ -6314,11 +6251,7 @@ Regulación de Subsuelos
 
 Se podrán edificar subsuelos hasta la L.I.B.
 
-![](media/2b677be235698f94c85136078619e569.png)
 
-![](media/425f53f85f999e1dae98fa11ab84dda1.png)
-
-![](media/4e7f0d2c47b4009b20a936caae484e03.png)
 
 Servidumbres
 ------------
@@ -6371,7 +6304,7 @@ con la documentación requerida para lograr el permiso de obra, el certificado a
 otorgar por Organismo Competente determinando el plano límite correspondiente a
 la parcela.
 
-![](media/4b9f31f885ae3c6031c971602f6d9bfc.png)
+
 
 Lineamientos del Hábitat
 ========================
@@ -7371,21 +7304,19 @@ a) Área Edificable
 a.1) Cuando el Centro Libre de manzana quede comprendido entre las L.R.O, se
 podrá ocupar la totalidad de la superficie de las parcelas.
 
-![](media/da232344009c9dddc28a6f1266a93953.png)
+
 
 a.2) Cuando el Centro Libre de Manzana se desarrolle total o parcialmente por
 fuera de las L.R.O, el área edificable queda comprendida entre las L.O, la
 L.I.B. o la L.F.I. según corresponda, y la L.R.O.
 
-![](media/fb56d63193a74721a564165b63671a95.png)
 
-![](media/a02f2fe0a999a8c577570100d4f1a00f.png)
 
 a.3) En el caso de aquellas manzanas en que la distancia promedio entre la L.I.B
 o la L.F.I según corresponda, y la L.R.O sea menor o igual a cuatro (4) metros,
 es de aplicación lo establecido en el inciso a.1.
 
-![](media/4df318ebd14d60123550078db70cc1bc.png)
+
 
 b) Altura Máxima
 

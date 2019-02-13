@@ -3783,21 +3783,18 @@ Se definen los siguientes casos:
 a) Parcela flanqueada por dos Piezas consolidadas de referencia o Edificios
 Catalogados de igual altura.
 
-![](media/64720552ddd505605bf447923dc94605.png)
 
 b) Parcela flanqueada por dos Piezas consolidadas de referencia o Edificios
 Catalogados de diferente altura.
 
-![](media/ba4d69eda527da13581e1c4cdbac2773.png)
+
 
 c) Parcela entre dos áreas de diferente altura.
 
-![](media/9d9748ca811a2e019a89018d34b2b2ca.png)
 
 d) Parcela flanqueada por una Pieza consolidada de Referencia o Edificio
 Catalogado y altura de la Unidad de Edificabilidad.
 
-![](media/a34e6157c5d2ac65790aa690b1a8db10.png)
 
 ### 3.6.1. Piezas consolidadas de referencia
 
@@ -3860,7 +3857,7 @@ encima de éste, se deberá retirar tres (3) metros de la L.O.
 En los adyacentes a Cautelares, además del retiro frontal antedicho, deberán
 realizar el retiro lateral a catalogado de tres (3) metros.
 
-![](media/314c86dea8c6bf918ed151e3c13a522d.png)
+
 
 ### 3.6.3. Exclusiones
 
@@ -7064,40 +7061,7 @@ demostrada necesidad, así como el diseño y emplazamiento de los componentes de
 mobiliario urbano deberán contar con el dictamen favorable del Organismo
 Competente de acuerdo a las tipologías predominantes que constan en el “Cuadro
 de Tipologías de Mobiliario Urbano Área APH14), Ámbito Recoleta”.
-
-| TIPO    | FOTOGRAFÍA                                   | DESCRIPCIÓN                                                                                                                                                                                          |
-|---------|----------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| L1      | [./media/image6.jpeg](./media/image6.jpeg)   | Farol de diseño neoclásico constituido por una columna de hierro Ornamentada rematando en el aparato lumínico.                                                                                       |
-| TIPO    | FOTOGRAFÍA                                   | DESCRIPCIÓN                                                                                                                                                                                          |
-| L2      | [./media/image7.jpeg](./media/image7.jpeg)   | Tiene todas las características de L1. Solo se diferencia por estar construido de dos faroles.                                                                                                       |
-| TIPO    | FOTOGRAFÍA                                   | DESCRIPCIÓN                                                                                                                                                                                          |
-| L3      | [./media/image8.jpeg](./media/image8.jpeg)   | Sistema de alumbrado que consiste en una columna de hierro ornamentada de gran altura.                                                                                                               |
-| TIPO    | FOTOGRAFÍA                                   | DESCRIPCIÓN                                                                                                                                                                                          |
-| L4      | [./media/image9.jpeg](./media/image9.jpeg)   | Se diferencia de L3 por su menos altura                                                                                                                                                              |
-| TIPO    | FOTOGRAFÍA                                   | DESCRIPCIÓN                                                                                                                                                                                          |
-| L5      | [./media/image10.jpeg](./media/image10.jpeg) | Farol de diseño neoclásico amurado al paramento que circunvala el Cementerio                                                                                                                         |
-| TIPO    | FOTOGRAFÍA                                   | DESCRIPCIÓN                                                                                                                                                                                          |
-| L6      | [./media/image11.jpeg](./media/image11.jpeg) | Sistema de iluminación utilizado en el Cementerio de la Recoleta, diseño neoclásico. La columna de hierro fundido ornamentada es de gran altura.                                                     |
-| TIPO    | FOTOGRAFÍA                                   | DESCRIPCIÓN                                                                                                                                                                                          |
-| R       | [./media/image12.jpeg](./media/image12.jpeg) | Reloj de diseño típicamente neoclásico sostenido por una columna de hierro fundido ornamentada y de color verde, en donde se aprecia un farol en la parte superior del cuadrante circular del reloj. |
-| TIPO    | FOTOGRAFÍA                                   | DESCRIPCIÓN                                                                                                                                                                                          |
-| V1      | [./media/image13.jpeg](./media/image13.jpeg) | Ventilación de diseño contemporáneo.                                                                                                                                                                 |
-| TIPO    | FOTOGRAFÍA                                   | DESCRIPCIÓN                                                                                                                                                                                          |
-| V2      | [./media/image14.jpeg](./media/image14.jpeg) | Ventilación de diseño neoclásico.                                                                                                                                                                    |
-| TIPO    | FOTOGRAFÍA                                   | DESCRIPCIÓN                                                                                                                                                                                          |
-| B1 y B2 | [./media/image15.jpeg](./media/image15.jpeg) | Bancos de símil piedra sin respaldo con ornamentación en cada soporte                                                                                                                                |
-| TIPO    | FOTOGRAFÍA                                   | DESCRIPCIÓN                                                                                                                                                                                          |
-| B3      | [./media/image16.jpeg](./media/image16.jpeg) | Banco con asiento y respaldo de madera y soporte de estructura metálica                                                                                                                              |
-| TIPO    | FOTOGRAFÍA                                   | DESCRIPCIÓN                                                                                                                                                                                          |
-| B4      | [./media/image17.jpeg](./media/image17.jpeg) | Banco de estructura metálica sobre la cual se asientan listones de madera para constituir el asiento y respaldo.                                                                                     |
-| TIPO    | FOTOGRAFÍA                                   | DESCRIPCIÓN                                                                                                                                                                                          |
-| B5      | [./media/image18.jpeg](./media/image18.jpeg) | Banco de diseño contemporáneo con asiento y respaldo constituido por tablas de madera soportadas por estructura metálica.                                                                            |
-| TIPO    | FOTOGRAFÍA                                   | DESCRIPCIÓN                                                                                                                                                                                          |
-| C1      | [./media/image19.jpeg](./media/image19.jpeg) | Cartel de diseño neoclásico de hierro fundido ornamentado, cuya parte más alta presenta un espacio destinado a inscripciones.                                                                        |
-| TIPO    | FOTOGRAFÍA                                   | DESCRIPCIÓN                                                                                                                                                                                          |
-| C2      | [./media/image20.jpeg](./media/image20.jpeg) | Cartel de diseño neoclásico cuya columna de hierro fundido se encuentra ornamentada sosteniendo una estructura rectangular para colocar la denominación plaza.                                       |
-| TIPO    | FOTOGRAFÍA                                   | DESCRIPCIÓN                                                                                                                                                                                          |
-| C3      | [./media/image21.jpeg](./media/image21.jpeg) | Cartel constituido por una columna de hierro que sostiene una estructura rectangular destinada a publicidad                                                                                          |
+                                                                                        |
 
 i) Empresas de Servicios Públicos: Queda prohibida la ocupación de la vía
 pública y del espacio aéreo del Área por otro elemento que no sean árboles,
@@ -11868,17 +11832,17 @@ CUADRO DE TIPOLOGÍAS DE MOBILIARIO URBANO ÁREA APH44 BARRANCAS DE BELGRANO
 
 | TIPO | FOTOGRAFÍA                                   | DESCRIPCIÓN                                                                                                                                                                                                                                                                                                                                                                              |
 |------|----------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| F1   | [./media/image22.jpeg](./media/image22.jpeg) | Farola de una luminaria H: 7.30m Corresponde al tipo de luminarias fabricadas en serie, con las características del diseño francés de la época, ampliamente difundido en nuestro país a fines del siglo XIX.                                                                                                                                                                             |
-| F2   | [./media/image23.jpeg](./media/image23.jpeg) | Farola de una luminaria H: 4.50m Año de origen: 1880 Año de colocación: 1892 Diseño: Naturalista Material: Hierro Fundido                                                                                                                                                                                                                                                                |
-| F3   | [./media/image24.jpeg](./media/image24.jpeg) | Farola de dos luminarias H: 4.80m Año de origen: 1880 Año de colocación: 1892 Diseño: Naturalista Material: Hierro Fundido                                                                                                                                                                                                                                                               |
-| F4   | [./media/image25.jpeg](./media/image25.jpeg) | Farola de dos luminarias Ubicados sobre el balaustre del mirador, siguiendo su trazado y al inicio de las escalinatas enfatizando los accesos al mismo. H: 2.50m                                                                                                                                                                                                                         |
-| A    | [./media/image26.jpeg](./media/image26.jpeg) | Mesas de ajedrez y bancos Conjunto heterogéneo de ejecución in situ.                                                                                                                                                                                                                                                                                                                     |
-| P    | [./media/image27.jpeg](./media/image27.jpeg) | Publicitario Corresponde al tipo de carteles para anuncios publicitarios provistos por el GCBA, fabricados en serie y con las características del diseño francés de la época, ampliamente difundido en nuestro país en el siglo XX.                                                                                                                                                      |
-| G    | [./media/image28.jpeg](./media/image28.jpeg) | Glorieta Corresponde al tipo de kioscos fabricados en serie, con las características del diseño francés de la época, ampliamente difundido en nuestro país a fines del siglo XIX. Su función es la de albergar espectáculos en espacios abiertos.                                                                                                                                        |
-| M    | [./media/image29.jpeg](./media/image29.jpeg) | Mirador Características del diseño francés de la época, ampliamente difundido en nuestro país a fines del siglo XIX. Su función fue la de servir de mirador al río y crear un espacio diferenciado del resto de la plaza. Está compuesto de una balaustrada que encierra un espacio de 30 m de diámetro con dos accesos de 10 m. El lugar está equipado con luminarias y bancos romanos. |
-| B1   | [./media/image30.jpeg](./media/image30.jpeg) | Banco de cemento Modelo de la Dirección General de Paseos. Los materiales que lo componen son: cemento, escallas de granito, binder, arena y hierro.                                                                                                                                                                                                                                     |
-| B2   | [./media/image31.jpeg](./media/image31.jpeg) | Banco de plaza Probablemente son los primeros bancos existentes en la plaza. Cuando debieron ser reemplazados por deterioros, el modelo fue transformado en su estructura reemplazando el hierro fundido por planchuelas de hierro.                                                                                                                                                      |
-| B    | [./media/image32.jpeg](./media/image32.jpeg) | Bebedero Está constituido por un cilindro de hormigón de 0.40m de diámetro y 1,10m de altura con un cuenco en la parte superior y un vertedor central. No se consignan datos históricos.                                                                                                                                                                                                 |
+| F1   |  | Farola de una luminaria H: 7.30m Corresponde al tipo de luminarias fabricadas en serie, con las características del diseño francés de la época, ampliamente difundido en nuestro país a fines del siglo XIX.                                                                                                                                                                             |
+| F2   |  | Farola de una luminaria H: 4.50m Año de origen: 1880 Año de colocación: 1892 Diseño: Naturalista Material: Hierro Fundido                                                                                                                                                                                                                                                                |
+| F3   |  | Farola de dos luminarias H: 4.80m Año de origen: 1880 Año de colocación: 1892 Diseño: Naturalista Material: Hierro Fundido                                                                                                                                                                                                                                                               |
+| F4   |  | Farola de dos luminarias Ubicados sobre el balaustre del mirador, siguiendo su trazado y al inicio de las escalinatas enfatizando los accesos al mismo. H: 2.50m                                                                                                                                                                                                                         |
+| A    | | Mesas de ajedrez y bancos Conjunto heterogéneo de ejecución in situ.                                                                                                                                                                                                                                                                                                                     |
+| P    |  | Publicitario Corresponde al tipo de carteles para anuncios publicitarios provistos por el GCBA, fabricados en serie y con las características del diseño francés de la época, ampliamente difundido en nuestro país en el siglo XX.                                                                                                                                                      |
+| G    | | Glorieta Corresponde al tipo de kioscos fabricados en serie, con las características del diseño francés de la época, ampliamente difundido en nuestro país a fines del siglo XIX. Su función es la de albergar espectáculos en espacios abiertos.                                                                                                                                        |
+| M    |  | Mirador Características del diseño francés de la época, ampliamente difundido en nuestro país a fines del siglo XIX. Su función fue la de servir de mirador al río y crear un espacio diferenciado del resto de la plaza. Está compuesto de una balaustrada que encierra un espacio de 30 m de diámetro con dos accesos de 10 m. El lugar está equipado con luminarias y bancos romanos. |
+| B1   |  | Banco de cemento Modelo de la Dirección General de Paseos. Los materiales que lo componen son: cemento, escallas de granito, binder, arena y hierro.                                                                                                                                                                                                                                     |
+| B2   |  | Banco de plaza Probablemente son los primeros bancos existentes en la plaza. Cuando debieron ser reemplazados por deterioros, el modelo fue transformado en su estructura reemplazando el hierro fundido por planchuelas de hierro.                                                                                                                                                      |
+| B    |  | Bebedero Está constituido por un cilindro de hormigón de 0.40m de diámetro y 1,10m de altura con un cuenco en la parte superior y un vertedor central. No se consignan datos históricos.                                                                                                                                                                                                 |
 
 j) Trazado, monumentos y elementos singulares: Las intervenciones en la Zona 3
 (sectores parquizados de las Barrancas) deberán respetar el trazado original.
@@ -13730,16 +13694,7 @@ Todo nuevo elemento a instalarse deberá responder a un diseño integral que
 contemple los elementos existentes y contar con el dictamen favorable del
 Organismo Competente.
 
-CUADRO DE TIPOLOGÍAS DE MOBILIARIO URBANO ÁREA APH50 AVENIDA CALLAO
 
-| TIPO | FOTOGRAFÍA                                 | DESCRIPCIÓN                                                                                                        |
-|------|--------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| L 1  | [./media/image33.png](./media/image33.png) | Farol de diseño neoclásico constituido por una columna de hierro ornamentada rematando en el aparato lumínico.     |
-| TIPO | FOTOGRAFÍA                                 | DESCRIPCIÓN                                                                                                        |
-| L 2  | [./media/image34.png](./media/image34.png) | Columna de hierro rematando en el aparato lumínico constituido de dos faroles.                                     |
-| L 3  | [./media/image35.png](./media/image35.png) | Columna de hierro rematando en el aparato lumínico constituido de un farol.                                        |
-| B 1  | [./media/image36.png](./media/image36.png) | Banco con asiento y respaldo de madera y soporte de estructura metálica.                                           |
-| B 2  | [./media/image37.png](./media/image37.png) | Banco de estructura metálica sobre la cual se asientan listones de madera para constituir el asiento y el respaldo |
 
 b) Actividades en la vía pública: En el Pasaje Enrique Santos Discépolo se
 permite el uso de las veredas como expansión de bares, confiterías, cafés,
