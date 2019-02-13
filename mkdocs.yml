@@ -1,16 +1,14 @@
-site_name: Estrategia de Apertura de Datos
-site_url: https://datosgcba.github.io/guia-datos/
-site_description: Recursos para la apertura de datos públicos del Gobierno de la Ciudad Autónoma de Buenos Aires.
-site_author: Buenos Aires Data
-repo_url: https://github.com/datosgcba/
+site_name: Nuevo Código Urbanístico
+site_url: https://martoalalu.github.io/codigo-urbanistico/
+site_description: Texto principal y anexos del Nuevo Código Urbanístico
+site_author: Gobierno de la Ciudad Autónoma de Buenos Aires
+repo_url: https://github.com/martoalalu/
 
 nav:
   - Inicio: index.md
-  - Guía para la publicación de datos en formatos abiertos: guia-abiertos.md
-  - Guía para la identificación y uso de entidades interoperables: guia-interoperables.md
-  - Guía para el uso y la publicación de metadatos: guia-metadatos.md
-  - Política de Datos Abiertos: politica-datos-abiertos.md 
-  - Glosario: glosario.md
+  - Ley de Código Urbanístico - N° 6099/18: codigo.md
+  - Anexo I Catálogo de Inmuebles Protegidos: anexo-2.md
+  - Anexo II Áreas Especiales Individualizadas: anexo-2.md
 
 theme:
   name: 'datosgobar_docs'
